@@ -1,0 +1,882 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+/*header*/
+
+
+
+header{
+    background-color: rgb(21, 91, 140);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.25rem;
+}
+
+
+.logo-header img{
+    width: 24.125rem;
+    padding-left:3.75rem;
+}
+
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: end;
+    gap: 1.875rem;
+    padding-right: 3.75rem;
+}
+
+.navbar ul li{
+display: flex;
+
+}
+
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*main*/
+
+
+/*botones*/
+.boton-nota2 {
+width: 12.5rem;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: .875rem;
+background-color: white;
+color: black;
+border: none;
+padding: .625rem;
+box-shadow: .0125rem .0063rem .5rem;
+border-radius: .625rem
+}
+
+
+
+/*Home*/
+
+
+
+    /*Home - seccion 1*/
+
+.portada-home{
+    margin-top: .1875rem;
+}
+.portada-home img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+
+.texto-portada1{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    width: 380px;
+    position: absolute;
+    bottom: 18.75rem;
+    right: 9.375rem
+    
+    
+}
+
+.texto-portada1 h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #155B8C;
+    font-size: 3.0625rem;
+    
+}
+
+.texto-portada1 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color:black;
+    font-size: 3.0625rem;
+    line-height: 1;
+}
+
+
+
+
+
+
+    /*Home - seccion 2*/
+
+.circulos{
+    display: flex;
+    flex-direction: row;
+    gap: 3.125rem;
+    margin: 3.75rem 0rem 3.75rem 1.875rem;
+    
+}
+
+
+
+
+/*home-enosotros*/
+
+
+.circulo-nos{
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    align-items: center;
+
+}
+
+.circulo-nos img {
+    width: 13.125rem;
+    height: 100%;
+}   
+
+.circulo-nos h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.0625rem;
+    align-items: center;
+}
+
+.circulo-nos p{
+    width: 12.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .75rem;
+    text-align: center;
+}
+
+
+/*home-especialidad*/
+
+
+.circulo-espe{
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    align-items: center;
+
+}
+
+.circulo-espe img {
+    width: 13.125rem;
+    height: 100%;
+}   
+
+.circulo-espe h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.0625rem;
+    align-items: center;
+}
+
+.circulo-espe p{
+    width: 12.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .75rem;
+    text-align: center;
+}
+
+/*home-contacto*/
+
+.circulo-cont{
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    align-items: center;
+
+
+}
+
+.circulo-cont img {
+    width: 13.125rem;
+    height: 100%;
+}   
+
+.circulo-cont h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.0625rem;
+    align-items: center;
+}
+
+.circulo-cont p{
+    width: 12.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .75rem;
+    text-align: center;
+}
+
+/*home-ingresar*/
+
+.circulo-ing{
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    align-items: center;
+
+}
+
+.circulo-ing img {
+    width: 13.125rem;
+    height: 100%;
+}   
+
+.circulo-ing h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.0625rem;
+    
+}
+
+.circulo-ing p{
+    width: 12.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .75rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+    /*Home - seccion Articulos*/
+
+.article{
+    width: 40.625rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 18.75rem;
+}
+
+
+.rx{
+    display: flex;
+
+
+}
+.rx img{
+    width: 100%;
+    height: 19.6875rem;
+    object-fit: contain;
+    margin-left: 2.5rem;
+}
+
+
+.rx h2,p{ 
+    width: 18.75rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 1.875rem;
+    }
+
+    .texto1 p{
+        font-size: .9375rem;
+        margin-top: .9375rem;
+        }
+
+
+.mujer-sonriendo{
+    display: flex;
+}
+
+.mujer-sonriendo img{
+    width: 15.6875rem;
+    height: 19.6875rem;
+    object-fit:cover;
+
+}
+.mujer-sonriendo h2,p{
+width: 18.75rem;
+font-family: "Roboto", sans-serif;
+padding: 0rem 1.875rem;
+
+}
+
+.mujer-sonriendo p{
+    font-size: .9375rem;
+    margin-top: .9375rem;
+    }
+
+
+
+
+
+
+
+
+
+/*
+.h4-nos{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.25rem;
+color: #155B8C;
+margin: 1.25rem 0rem 0rem 0rem;
+
+}
+*/
+.h4-espe{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #155B8C;
+    margin: 1.25rem 0rem 0rem 0rem;   
+    }
+
+    .h4-contact{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #155B8C;
+        margin: 1.25rem 0rem 0rem 0rem;
+    }
+
+    .h4-ingresar{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.25rem;
+        color: #155B8C;
+        margin: 1.25rem 0rem 0rem 0rem;
+    }
+.section-home{
+    height: 43.75rem;
+    width: 100%;
+}
+
+
+
+
+/*nosotros*/
+
+
+
+/*nosotros - seccion1*/
+.seccion-principal-nos{
+    margin-top: .1875rem;
+}
+
+.seccion-principal-nos img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*nosotros - seccion2*/
+
+.seccion-secund{
+    background-color: #edecec;
+    height: 31.25rem;
+    width: 100%;
+}
+
+.art-secundaria-nos{
+    
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.art-secundaria-nos img{
+    width: 25rem;
+    height: 31.25rem;
+    object-fit:cover;
+    padding: 1.25rem 1.25rem;
+}
+
+.texto-nota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.texto-nota h2,p{
+    width: 31.25rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 1.875rem;
+
+
+    
+    }
+
+.texto-nota h2{
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    align-self: center;
+    text-align: center;
+
+}
+
+.texto-nota p{
+
+    font-size: .9375rem;
+    margin-top: .9375rem;
+}
+
+
+
+/*especialidades*/
+
+.niña-dentista {
+        padding-top: .1875rem;
+}
+
+.niña-dentista img{
+    width: 100%;
+    height: auto ;
+}
+
+
+
+
+/* seccion espe*/
+
+
+.section-espe{
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 50rem;
+
+}
+
+
+.primera-fila{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding: 7.5rem 0rem 0rem 3.125rem;
+}
+
+.fila2-imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1.875rem 0rem 0rem 3.125rem;
+}
+
+
+
+
+
+/* espec. general*/
+
+.sonrisa-general{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.sonrisa-general img{
+    width: 13.125rem;
+    height: 15.625rem;
+    border-radius: .625rem
+
+}
+
+.sonrisa-general h4{
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 1.875rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/* endodoncia*/
+
+.endodoncia{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.endodoncia img{
+    width: 13.125rem;
+    height: 15.625rem;
+    border-radius: .625rem
+
+}
+
+.endodoncia h4{
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 1.875rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+/* ortodoncia*/
+
+
+.ortodoncia{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ortodoncia img{
+    width: 13.125rem;
+    height: 15.625rem;
+    border-radius: .625rem
+
+}
+
+.ortodoncia h4{
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 1.875rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+/* implantes*/
+
+
+.implantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.implantes img{
+    width: 13.125rem;
+    height: 15.625rem;
+    border-radius: .625rem
+    
+}
+.implantes h4{
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 1.875rem;
+    font-size: 1.25rem;
+    text-align: center;
+    
+}
+
+/* cirugia*/
+
+
+
+.cirugia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cirugia img{
+    width: 13.125rem;
+    height: 15.625rem;
+    border-radius: .625rem
+    
+}
+.cirugia h4{
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 1.875rem;
+    font-size: 1.25rem;
+    text-align: center;
+    
+}
+
+/* odontopediatría*/
+
+.odontopediatria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.odontopediatria img{
+    width: 13.125rem;
+    height: 15.625rem;
+    border-radius: .625rem
+    
+}
+.odontopediatria h4{
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 1.875rem;
+    font-size: 1.25rem;
+    text-align: center;
+    
+}
+
+
+
+
+.boton-especialidades{
+    background-color: #efefef;
+    box-shadow: .0625rem .0625rem .25rem;
+    border: none;
+    padding: .625rem 1.25rem;
+    font-size: .75rem;
+    border-radius: .3125rem;
+    
+    margin: 1.25rem 0rem 0rem 41.875rem;
+}
+
+
+
+
+
+
+
+
+/*contacto*/
+
+
+.herramientas{
+    padding-top: .1875rem;
+
+}
+
+
+.herramientas img{
+    width: 100%;
+    height: auto;
+
+}
+
+.section-contacto{
+    background-color: #F8F8F8;
+    height: 43.75rem;
+    width: 100%;
+}
+
+.titulo-contacto{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.5625rem;
+color: #155B8C;
+margin: 0rem 0rem 1.25rem 3.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*ingresar*/
+
+
+.portada-ingresar{
+    padding-top: .1875rem;
+}
+
+.portada-ingresar img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.section-ingresar{
+    background-color: #F8F8F8;
+    height: 43.75rem;
+    width: 100%;
+}
+
+.titulo-ingresar{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.5625rem;
+color: #155B8C;
+margin: 0rem 0rem 1.25rem 3.75rem;
+}
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+
+
+footer{
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100px 70px 60px;
+    
+    grid-template-areas:
+    
+    "logo menus"
+    "iconos menus"
+    "manda manda" 
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+
+    grid-area: logo;
+    width: 70%;
+
+
+    
+}
+.menus{
+    background-color:rgb(255, 255, 255);
+    grid-area: menus;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 3.125rem;   
+}
+
+
+.menus-footer {
+display: flex;
+flex-direction: column;
+}
+
+.menus-footer a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: .375rem;
+    color: #155B8C;
+
+}
+
+
+.menus-footer2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.125rem ;
+    margin-bottom: 1.875rem;
+    }
+    
+.menus-footer2 a{
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: .375rem ;
+        color: #155B8C;
+    
+    }
+
+
+
+
+
+
+
+.iconos{
+    background-color:rgb(255, 255, 255);
+    grid-area: iconos;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: .9375rem;
+    padding: 0rem 8rem 0rem 0rem;
+
+
+
+}
+.iconos img{
+    width: 1.875rem;
+    height: 1.875rem;
+
+}
+
+.manda{
+    background-color:#155B8C;
+    grid-area: manda;
+    display: flex;
+    align-items: center;
+
+}
+
+.manda p{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.0625rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+
+
