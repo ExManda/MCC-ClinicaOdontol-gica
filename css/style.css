@@ -90,7 +90,7 @@ border-radius: .625rem
 
 
 
-
+/*
 .texto-portada1{
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ border-radius: .625rem
     line-height: 1;
 }
 
-
+*/
 
 
 
@@ -131,8 +131,9 @@ border-radius: .625rem
 .circulos{
     display: flex;
     flex-direction: row;
-    gap: 3.125rem;
-    margin: 3.75rem 0rem 3.75rem 1.875rem;
+    justify-content: center;
+    gap: 30px;
+    margin: 3.75rem 0rem 3.75rem 0rem;
     
 }
 
@@ -151,8 +152,8 @@ border-radius: .625rem
 }
 
 .circulo-nos img {
-    width: 13.125rem;
-    height: 100%;
+    width: 9.375rem;
+    height: auto;
 }   
 
 .circulo-nos h2{
@@ -185,8 +186,8 @@ border-radius: .625rem
 }
 
 .circulo-espe img {
-    width: 13.125rem;
-    height: 100%;
+    width: 9.375rem;
+    height: auto;
 }   
 
 .circulo-espe h2{
@@ -218,8 +219,8 @@ border-radius: .625rem
 }
 
 .circulo-cont img {
-    width: 13.125rem;
-    height: 100%;
+    width: 9.375rem;
+    height: auto;
 }   
 
 .circulo-cont h2{
@@ -250,8 +251,8 @@ border-radius: .625rem
 }
 
 .circulo-ing img {
-    width: 13.125rem;
-    height: 100%;
+    width: 9.375rem;
+    height: auto;
 }   
 
 .circulo-ing h2{
@@ -288,7 +289,7 @@ border-radius: .625rem
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    gap: 18.75rem;
+    gap: 9.375rem;
 }
 
 
@@ -305,20 +306,28 @@ border-radius: .625rem
 }
 
 
-.rx h2,p{ 
-    width: 18.75rem;
-    font-family: "Roboto", sans-serif;
-    padding: 0rem 1.875rem;
-    }
 
-    .texto1 p{
-        font-size: .9375rem;
+.texto1 h2{
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+    margin-left: 1.875rem ;
+}
+
+.texto1 p{
+        width: 25rem;    
+        padding-right: 150px;
+        font-size: .75rem;
         margin-top: .9375rem;
         }
 
 
+
+
+
 .mujer-sonriendo{
     display: flex;
+    flex-direction: row;
+    
 }
 
 .mujer-sonriendo img{
@@ -326,18 +335,25 @@ border-radius: .625rem
     height: 19.6875rem;
     object-fit:cover;
 
-}
-.mujer-sonriendo h2,p{
-width: 18.75rem;
-font-family: "Roboto", sans-serif;
-padding: 0rem 1.875rem;
 
+}
+
+
+    
+.mujer-sonriendo h2{
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+    margin-left: 1.875rem ;
 }
 
 .mujer-sonriendo p{
-    font-size: .9375rem;
-    margin-top: .9375rem;
-    }
+        width: 25rem;    
+        padding-right: 150px;
+        font-size: .75rem;
+        margin-top: .9375rem;
+
+        }
+
 
 
 
@@ -419,12 +435,16 @@ margin: 1.25rem 0rem 0rem 0rem;
     
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-self: center;
+    padding-top: 2.5rem ;
+    margin-right: 30%
 }
 
+
 .art-secundaria-nos img{
-    width: 25rem;
-    height: 31.25rem;
+    width: 18.75rem;
+    height: 25rem;
     object-fit:cover;
     padding: 1.25rem 1.25rem;
 }
@@ -438,7 +458,7 @@ margin: 1.25rem 0rem 0rem 0rem;
 
 
 .texto-nota h2,p{
-    width: 31.25rem;
+    width: 25rem;
     font-family: "Roboto", sans-serif;
     padding: 0rem 1.875rem;
 
@@ -728,7 +748,7 @@ margin: 0rem 0rem 1.25rem 3.75rem;
     height: auto;
     
 }
-
+/*
 .section-ingresar{
     background-color: #F8F8F8;
     height: 43.75rem;
@@ -743,8 +763,67 @@ font-size: 1.5625rem;
 color: #155B8C;
 margin: 0rem 0rem 1.25rem 3.75rem;
 }
+*/
 
+/*Log in*/
 
+.login-section {
+    background-color:#F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-container {
+
+    padding: 2rem;
+    width: 500px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin: 0.5rem 0 0.2rem 0;
+    font-weight:bolder;
+}
+
+input {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #23A6F0;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #1974a8;
+}
+
+.error {
+    color: red;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    display: none;
+}
 
 
 
@@ -808,6 +887,7 @@ flex-direction: column;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: .8125rem;
     margin: .375rem;
     color: #155B8C;
 
@@ -826,6 +906,7 @@ flex-direction: column;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
+        font-size: .8125rem;
         margin: .375rem ;
         color: #155B8C;
     
@@ -844,7 +925,7 @@ flex-direction: column;
     justify-content: center;
     align-items: top;
     gap: .9375rem;
-    padding: 0rem 8rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
 
 
 
@@ -868,7 +949,7 @@ flex-direction: column;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.0625rem;
+    font-size: .8125rem;
     color: white;
     display: flex;
     flex-direction: row;

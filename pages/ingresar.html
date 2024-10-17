@@ -25,16 +25,37 @@
     </header>
 
 
+<!-- main-->
 
 
     <main>
         <section class="portada-ingresar">
             <img src="../asset/portadas/Ingresar.jpg" alt="boca-abierta">
         </section>
-        <section class="section-ingresar">
-            <h2 class="titulo-ingresar">Ingresar</h2>
+        
 
+<!-- log in-->
+
+
+        <section class="login-section">
+            <div class="login-container">
+                <h2>Iniciar Sesión</h2>
+                <form id="loginForm">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" name="username" placeholder="Ingresa tu usuario" required>
+    
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+    
+                    <button type="submit">Ingresar</button>
+                    <p id="error-message" class="error"></p>
+                </form>
+            </div>
         </section>
+
+
+
+
 
         
     </main>
