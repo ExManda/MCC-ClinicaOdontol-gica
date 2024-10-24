@@ -5,22 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MCC - Clinica Odontológica</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 <body>
 
-<header> <!-- header -->
-    <div class="logo-header">
-        <img src="asset/LOGO-MCC-white.png" alt="logo">
-    </div> 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            <li><a href="./pages/especialidades.html">Especialidades</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-            <li><a href="./pages/ingresar.html">Ingresar</a></li>
-        </ul>
-    </nav>
+<header> 
+    <!-- header -->
+    
+    <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg menu">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="./asset/LOGO-MCC-white.png" alt="Logo MCC" height="40">
+                </a>
+                <!-- menú hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./pages/especialidades.html">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./pages/ingresar.html">Ingresar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         
 </header>
 
@@ -34,18 +59,12 @@
 
 <main>
 
-    <!--secicon 1-->
+<!--secicon 1-->
+
     
     <section class="portada-home">
         <img src="./asset/home.jpeg" alt="hombre-en-consultorio">
         
-        <!--
-        <div class="texto-portada1">
-            <h2>Tu salud dental</h2>
-            <p>en manos de profesionales con experiencia.</p>
-        </div> 
-        </section>
-    -->
 
 
         
@@ -53,26 +72,29 @@
     
 <section class="circulos">
 
-    <div class="circulo-nos">
-        <img src="./asset/especialidades/1x/circulo-nosotros.png" alt="circulos-nos">
+    <div class="circulo-nos ">
+        <a href="./pages/nosotros.html"><img src="./asset/especialidades/1x/circulo-nosotros.png" alt="circulos-nos"></a>
+        
         <h2> Nosotros</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo inventore earum quasi, in mollitia voluptate</p>
     </div>
 
     <div class="circulo-espe">
-        <img src="./asset/especialidades/1x/circulo-especialidades.png" alt="circulos-espe">
+        <a href="./pages/especialidades.html"><img src="./asset/especialidades/1x/circulo-especialidades.png" alt=""></a>
+        
         <h2> Especialidades</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo inventore earum quasi, in mollitia voluptate</p>
     </div>
 
     <div class="circulo-cont">
-        <img src="./asset/especialidades/1x/circulo-contacto.png" alt="circulos-cont">
+        <a href="./pages/contacto.html"><img src="./asset/especialidades/1x/circulo-contacto.png" alt="circulos-cont"></a>
         <h2> Contacto</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo inventore earum quasi, in mollitia voluptate</p>
     </div>
 
     <div class="circulo-ing">
-        <img src="./asset/especialidades/1x/circulo-ingresar.png" alt="circulos-ing">
+        <a href="./pages/ingresar.html"><img src="./asset/especialidades/1x/circulo-ingresar.png" alt="circulos-ing"></a>
+        
         <h2> Ingresar</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo inventore earum quasi, in mollitia voluptate</p>
     </div>
@@ -83,9 +105,9 @@
 
 <!--secicon 3-->
 
-<section class="article">
-    <article class="rx">
-        <img src="./asset/filip-rankovic-grobgaard-Bd0RmCsJOCc-unsplash(1).jpg" alt="mirando-rx">
+<section class="contenedor-notas">
+    <article class="Segmento1">
+        <img src="./asset/imagenrx.png" alt="mirando-rx">
         <div class="texto1">
             <h2>Título de la nota</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iure ipsum in saepe harum cupiditate perferendis sed quaerat. Voluptates officia rerum dicta voluptate a fugit doloribus illo consequuntur veniam quasi!</p>
@@ -94,7 +116,7 @@
 
     <article class="mujer-sonriendo">
         <img src="./asset/mujer-sonriente.jpeg" alt="mujer-sonrinete">
-        <div>
+        <div class="texto1">
             <h2>Título de la nota</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iure ipsum in saepe harum cupiditate perferendis sed quaerat. Voluptates officia rerum dicta voluptate a fugit doloribus illo consequuntur veniam quasi!</p>
         </div>
@@ -154,5 +176,9 @@
 
     
     
+
+
+<script src="./js/bootstrap.min.js"></script>
+
 </body>
 </html>

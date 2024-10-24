@@ -5,23 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MCC - Clinica Odontológica</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
 
-    <header> <!-- header -->
-        <div class="logo-header">
-            <img src="../asset/LOGO-MCC-white.png" alt="logo">
-        </div> 
-        <nav class="navbar">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./especialidades.html">Especialidades</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="#">Ingresar</a></li>
-            </ul>
+    <header> 
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg menu">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../asset/LOGO-MCC-white.png" alt="Logo MCC" height="40">
+                </a>
+                <!-- Menú hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./especialidades.html">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Ingresar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-            
     </header>
 
 
@@ -95,6 +116,6 @@
     
         </footer>
     
-    
+        <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
