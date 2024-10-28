@@ -13,38 +13,41 @@
     <!-- header -->
     
     <!-- Bootstrap Navbar -->
-        <nav class="navbar navbar-expand-lg menu">
-            <div class="container-fluid">
-                <!-- Logo -->
-                <a class="navbar-brand" href="index.html">
-                    <img src="./asset/LOGO-MCC-white.png" alt="Logo MCC" height="40">
-                </a>
-                <!-- menú hamburguesa -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Menu -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./pages/especialidades.html">Especialidades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./pages/ingresar.html">Ingresar</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-sm menu">
+        <div class="container-fluid d-flex justify-content-between">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="./asset/LOGO-MCC-white.png" alt="Logo MCC" height="30">
+            </a>
+    
+            <!-- Menú hamburguesa alineado a la derecha -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Menu alineado a la derecha -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./pages/especialidades.html">Especialidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./pages/ingresar.html">Ingresar</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+
 
         
 </header>
@@ -59,12 +62,48 @@
 
 <main>
 
-<!--secicon 1-->
+<!--seccion 1-->
 
-    
-    <section class="portada-home">
-        <img src="./asset/home.jpeg" alt="hombre-en-consultorio">
+<!-- Sección con el carrusel -->
+<section id="carousel-section">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores del carrusel (los puntos de navegación) -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         
+        <!-- Imágenes del carrusel -->
+        <div class="carousel-inner">
+            <!-- Imagen 1 -->
+            <div class="carousel-item active">
+                <img src="./asset/home.jpeg" class="d-block w-100" alt="Imagen 1">
+                <div class="carousel-caption d-none d-md-block">
+                
+                </div>
+            </div>
+
+            <!-- Imagen 2 -->
+            <div class="carousel-item">
+                <img src="./asset/home/hombre-home1.jpeg" class="d-block w-100" alt="Imagen 2">
+                <div class="carousel-caption d-none d-md-block">
+                
+                </div>
+            </div>
+
+            <!-- Imagen 3 -->
+            <div class="carousel-item">
+                <img src="./asset/home/embarazada-home.jpeg" class="d-block w-100" alt="Imagen 3">
+                <div class="carousel-caption d-none d-md-block">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 
         
