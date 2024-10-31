@@ -28,28 +28,29 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../pages/nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../pages/especialidades.html">Especialidades</a>
+                        <a class="nav-link" href="./especialidades.html">Especialidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contacto</a>
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../pages/ingresar.html">Ingresar</a>
+                        <a class="nav-link" href="./ingresar.html">Ingresar</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-
-        
+    
 </header>
+
+
+
 
 <body>
 
@@ -59,7 +60,47 @@
         </section>
 
         <section class="section-contacto">
-            <h2 class="titulo-contacto">Contacto</h2>
+            <form class="grid-form" action="">
+                <div class="nombre-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+
+                <div class="apellido-form">
+                    <label for="nombre">Apellido:</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu apellido" required>
+                </div>
+                
+                <div class="email-form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Ingresa tu email" required>
+                </div>
+
+                <div class="tel-form">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="Ingresa tu teléfono" required> 
+                </div>
+
+                <div class="espe-form">
+                    <label for="especialidad">Especialidad:</label>
+                    <select id="especialidad" name="especialidad">
+                        <option value="opcion1">General</option>
+                        <option value="opcion2">Endodoncia</option>
+                        <option value="opcion3">Ortodoncia</option>
+                        <option value="opcion4">Implantes</option>
+                        <option value="opcion5">Cirugía</option>
+                        <option value="opcion6">Odontopediatría</option>
+                    </select>
+                </div>
+
+                <div class="msj-form">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" placeholder="Escribinos un mensaje" rows="5"></textarea> 
+                </div>
+
+            <button class="btn-form"
+            type="submit">Enviar</button>
+            </form>
         </section>
 
     
