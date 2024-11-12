@@ -1,0 +1,356 @@
+@media (max-width:768px){
+
+    .circulos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 3.75rem 0rem 3.75rem 0rem;
+        
+    }
+    
+    
+    
+    
+    /*home-nosotros - 480*/
+    
+    
+    .circulo-nos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+            img {
+            width: 9.375rem;
+            height: auto;
+        }   
+
+            h2{
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.0625rem;
+            align-items: center;
+        }
+        
+            p{
+            width: 10rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: .75rem;
+            text-align: center;
+        }
+
+    }
+    
+
+
+    
+    
+    /*home-especialidad - 480*/
+    
+    
+    .circulo-espe{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+
+        img {
+            width: 9.375rem;
+            height: auto;
+            }   
+        
+        h2{
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.0625rem;
+            align-items: center;
+            }
+        
+        p{
+            width: 10rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: .75rem;
+            text-align: center;
+            }
+    
+    }
+    
+
+    
+    /*home-contacto - 480*/
+    
+    .circulo-cont{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+
+        img {
+            width: 9.375rem;
+            height: auto;
+            }   
+        
+        h2{
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.0625rem;
+            align-items: center;
+            }
+        
+        p{
+            width: 10rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: .75rem;
+            text-align: center;
+            }
+    
+    
+    }
+    
+ 
+    
+    /*home-ingresar - 480*/
+    
+    .circulo-ing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .circulo-ing img {
+        width: 9.375rem;
+        height: auto;
+    }   
+    
+    .circulo-ing h2{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.0625rem;
+        
+    }
+    
+    .circulo-ing p{
+        width: 10rem;
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .75rem;
+        text-align: center;
+    }
+    
+
+
+
+
+
+                /*Especialidades*/
+    .section-espe{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .primera-fila{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0rem 0rem 0rem 0rem;
+                }
+                
+    .fila2-imagenes{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 1rem;
+                    padding: 0rem 0rem 0rem 0rem;
+                }
+                
+                
+                /* espec. general*/
+                
+    .sonrisa-general{
+                
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                
+                    img{
+                        width: 17rem;
+                        height: 11rem;
+                        object-fit: cover;
+                        border-radius: .4rem
+                    }
+                
+                    h4{
+                        font-family: "Roboto", sans-serif;
+                        padding: 0rem 1.875rem;
+                        font-size: 1.25rem;
+                        text-align: center;
+                    }
+                }
+                
+                /* endodoncia*/
+                
+                .endodoncia{
+                
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    
+                    img{
+                        width: 17rem;
+                        height: 11rem;
+                        object-fit: cover;
+                        border-radius: .4rem
+                    }
+                
+                    h4{
+                        font-family: "Roboto", sans-serif;
+                        padding: 0rem 1.875rem;
+                        font-size: 1.25rem;
+                        text-align: center;
+                    }
+                }
+                
+                /* ortodoncia*/
+                
+                
+                .ortodoncia{
+                
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                
+                    img{
+                        width: 17rem;
+                        height: 11rem;
+                        object-fit: cover;
+                        border-radius: .4rem
+                    }
+                    
+                    h4{
+                        font-family: "Roboto", sans-serif;
+                        padding: 0rem 1.875rem;
+                        font-size: 1.25rem;
+                        text-align: center;
+                    }
+                
+                }
+                
+                
+                
+                
+                /* implantes*/
+                
+                
+                .implantes{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                
+                    img{
+                        width: 17rem;
+                        height: 11rem;
+                        object-fit: cover;
+                        border-radius: .4rem
+                    }
+                    
+                    h4{
+                        font-family: "Roboto", sans-serif;
+                        padding: 0rem 1.875rem;
+                        font-size: 1.25rem;
+                        text-align: center;
+                        
+                    }
+                
+                }
+                
+                
+                
+                /* cirugia*/
+                
+                
+                
+                .cirugia{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                
+                    img{
+                        width: 17rem;
+                        height: 11rem;
+                        object-fit: cover;
+                        border-radius: .4rem
+                        }
+                    h4{
+                        font-family: "Roboto", sans-serif;
+                        padding: 0rem 1.875rem;
+                        font-size: 1.25rem;
+                        text-align: center;
+                        }
+                
+                }
+                
+                
+                
+                /* odontopediatría*/
+                
+                .odontopediatria {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                
+                    img{
+                        width: 17rem;
+                        height: 11rem;
+                        object-fit: cover;
+                        border-radius: .4rem
+                        }
+                    h4{
+                        font-family: "Roboto", sans-serif;
+                        padding: 0rem 1.875rem;
+                        font-size: 1.25rem;
+                        text-align: center;
+                        }
+                }
+                
+                
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

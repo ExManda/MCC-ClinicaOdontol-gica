@@ -1,0 +1,122 @@
+.grid-form{
+
+    width: 80%;
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 3rem 3rem 3rem 3rem 5rem;
+        
+    grid-template-areas:
+        
+    "nombre apellido"
+    "email email"
+    "tel espe"
+    "msj msj"
+    "msj msj"
+}
+
+.nombre-form{
+
+    grid-area: nombre;
+    display: flex;
+    gap: 1rem;
+    
+
+}
+
+.apellido-form{
+
+    grid-area: apellido;
+    display: flex;
+    gap: 0.8rem;
+    
+
+}
+
+.email-form{
+
+    grid-area: email;
+    display: flex;
+    gap: 2rem;
+
+}
+
+
+.tel-form{
+
+    grid-area: tel;
+    display: flex;
+    gap: 0.8rem;
+
+}
+
+.espe-form{
+    grid-area: espe;
+    display: flex;
+    gap: 0.8rem;
+}
+
+
+.msj-form{
+
+    grid-area: msj;
+    display: flex;
+    gap: 0.8rem;
+
+}
+
+.btn-form{
+    width: 13rem;
+    border-radius: 0.6rem;
+    margin: 0rem 5rem;
+}
+
+
+
+
+
+
+input{
+
+all: unset;
+border-bottom: 2px solid #04385e;
+
+}
+
+input:focus{
+
+    background-color: #ffffff;
+    color: #04385e;
+    border-bottom: #04385e;
+    
+}
+
+form{
+    width: 20rem;
+
+}
+
+
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

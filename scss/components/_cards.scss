@@ -1,0 +1,108 @@
+
+.Segmento1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    img{
+
+        height: 19rem;
+        width: 16rem;
+        object-fit: contain;
+       
+    }
+}
+
+.texto1{ 
+    h2{
+        width: 16rem;
+        font-size: 1.250rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        margin-left: 1.2rem;
+        }
+
+        p{
+        width: 16rem;
+        font-size: 0.88rem;
+        margin: 0.8rem 1rem;
+        }
+}
+
+
+
+.mujer-sonriendo{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    
+    img{
+
+        height: 19rem;
+        width: 16rem;
+        object-fit:cover;
+    }
+
+    .texto2{
+            h2{
+            width: 16rem;
+            font-size: 1.250rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            margin: 0rem 1.5rem;
+            }
+    
+            p{
+                width: 16rem;
+                font-size: 0.88rem;
+                margin: 0.8rem 1rem;
+            }
+    }
+    
+}
+
+
+
+/* noosotros*/
+
+
+.art-secundaria-nos{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding-top: 2.5rem ;
+    margin-right: 30%;
+
+    img{
+        width: 18.75rem;
+        height: 25rem;
+        object-fit:cover;
+        padding: 1.25rem 1.25rem;
+    }
+
+}
+
+.texto-nota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2,p{
+        width: 25rem;
+        font-family: "Roboto", sans-serif;
+        padding: 0rem 1.875rem;
+        }
+
+        h2{
+            font-size: 1.25rem;
+            margin-top: 1.25rem;
+            align-self: center;
+            text-align: center;
+            }
+
+        p{
+            font-size: .9375rem;
+            margin-top: .9375rem;
+            }    
+}

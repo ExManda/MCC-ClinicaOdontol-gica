@@ -1,0 +1,52 @@
+@use "base/reset";
+@use "layout/header";
+@use "layout/footer";
+
+
+@use "layout/flexs";
+@use "components/cards";
+@use "utilities/mixins";
+@use "utilities/maps";
+@use "components/bootstrap";
+
+
+            
+            /*Inicio*/
+@use "layout/inicio/index-section-1";
+@use "layout/inicio/index-section-2";
+@use "layout/Inicio/index-section-3";
+
+
+
+            /*nosotros*/
+@use "layout/nosotros/nosotros-section1";
+@use "layout/nosotros/nosotros-section2";
+
+
+
+            /*especialidad*/
+@use "layout/especialidades/especialidades-section1";
+@use "layout/especialidades/especialidades-section2";
+
+@use "components/buttons";
+
+            /*contacto*/
+@use "layout/contacto/contacto-section1";
+@use "layout/contacto/contacto-section2";
+@use "layout/grid";
+
+
+            /*ingresar*/
+@use "layout/ingresar/ingresar-section1";
+@use "layout/ingresar/ingresar-section2";
+
+
+/*media1024*/
+@use "layout/media1024";
+
+
+/*media 768*/
+@use "layout/media768";
+
+/*media 480*/
+@use "layout/media480";
