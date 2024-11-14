@@ -1,3 +1,7 @@
+
+@use "../utilities/mixins" as*;
+
+
 .circulos{
     display: flex;
     flex-direction: row;
@@ -180,179 +184,55 @@
 
 
                 /*Especialidades*/
+    .section-espe {
+            font-family: "Roboto", sans-serif;
+            background-color: #F8F8F8;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 0rem 2rem;
 
-.primera-fila{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-    padding: 5rem 0rem 0rem 0rem;
+        .primera-fila, .fila2-imagenes{
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 2rem;
+                
+                .sonrisa-general,
+                .endodoncia,
+                .ortodoncia,
+                .implantes,
+                .cirugia,
+                .odontopediatria {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    img{
+                        width: 20rem;
+                        height: 12rem;
+                        object-fit: cover;
+                        border: .4rem;
+                    }
+                    h4{
+                       @include tituloestilo;
+                      
+                    }                
+                }
+
+            
+            
+        }        
     }
 
-.fila2-imagenes{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-    padding: 1.875rem 0rem 0rem 0rem;
-    }
 
-
-
-/* espec. general*/
-
-.sonrisa-general{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 20rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-    }
-
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-    }
-}
-
-/* endodoncia*/
-
-.endodoncia{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    img{
-        width: 20rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-    }
-
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-    }
-}
-
-/* ortodoncia*/
-
-
-.ortodoncia{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 20rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-    }
-    
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-    }
-
-}
-
-
-
-
-/* implantes*/
-
-
-.implantes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 20rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-    }
-    
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-        
-    }
-
-}
-
-
-
-/* cirugia*/
-
-
-
-.cirugia{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 20rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-        }
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-        }
-
-}
-
-
-
-/* odontopediatría*/
-
-.odontopediatria {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 20rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-        }
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-        }
-}
-
-
-
-
-
-                            /* ingresar */
+/* ingresar */
 
 .login-section {
     background-color:#F8F8F8;

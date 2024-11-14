@@ -1,13 +1,17 @@
+@use "./utilities/mixins";
+@use "./utilities/maps";
+
+@use "components/cards";
+
+@use "components/bootstrap";
+
 @use "base/reset";
 @use "layout/header";
 @use "layout/footer";
 
 
 @use "layout/flexs";
-@use "components/cards";
-@use "utilities/mixins";
-@use "utilities/maps";
-@use "components/bootstrap";
+
 
 
             
@@ -41,6 +45,8 @@
 @use "layout/ingresar/ingresar-section2";
 
 
+
+
 /*media1024*/
 @use "layout/media1024";
 
@@ -50,3 +56,4 @@
 
 /*media 480*/
 @use "layout/media480";
+

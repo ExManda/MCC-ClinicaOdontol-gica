@@ -1,11 +1,11 @@
-.menu{
-    background-color: #155B8C;
+@use "../utilities/maps";
+
+.menu {
+    background-color: map-get(maps.$colors, "primario");
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: .875rem;
-
-
 }
 
 

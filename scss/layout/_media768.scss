@@ -13,7 +13,7 @@
     
     
     
-    /*home-nosotros - 480*/
+    /*home-nosotros - 768*/
     
     
     .circulo-nos{
@@ -49,7 +49,7 @@
 
     
     
-    /*home-especialidad - 480*/
+    /*home-especialidad - 768*/
     
     
     .circulo-espe{
@@ -84,7 +84,7 @@
     
 
     
-    /*home-contacto - 480*/
+    /*home-contacto - 768*/
     
     .circulo-cont{
         display: flex;
@@ -119,38 +119,40 @@
     
  
     
-    /*home-ingresar - 480*/
+    /*home-ingresar - 768*/
     
     .circulo-ing{
         display: flex;
         flex-direction: column;
         align-items: center;
-    
-    }
-    
-    .circulo-ing img {
-        width: 9.375rem;
-        height: auto;
-    }   
-    
-    .circulo-ing h2{
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 1.0625rem;
+
+        img {
+            width: 9.375rem;
+            height: auto;
+        }   
         
+        h2{
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.0625rem;
+            
+        }
+        
+        p{
+            width: 10rem;
+        
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: .75rem;
+            text-align: center;
+        }
+        
+    
     }
     
-    .circulo-ing p{
-        width: 10rem;
-    
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: .75rem;
-        text-align: center;
-    }
-    
+
 
 
 
@@ -158,199 +160,110 @@
 
                 /*Especialidades*/
     .section-espe{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
+            gap: 1rem;
+            flex-direction: row;
+        
+
+        .primera-fila{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem 0rem 2rem 0rem;
+                    }
+
+        .fila2-imagenes{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 1rem;
+                        padding: 1rem 0rem 2rem 0rem;
+                    }
+
+        .sonrisa-general{
+                    img{
+                            width: 14rem;
+                            height: 9rem;
+                        }
+                    }
+
+            .endodoncia{
+                    
+                        img{
+                            width: 14rem;
+                            height: 9rem;
+                        }
+                    }
+            .ortodoncia{
+                    
+                        img{
+                            width: 14rem;
+                            height: 9rem;
+                        }                    
+                    }
+            .implantes{
+                        img{
+                            width: 14rem;
+                            height: 9rem;
+                        }
+                    }
+            .cirugia{
+                        img{
+                            width: 14rem;
+                            height: 9rem;
+                        }                    
+                    }
+            .odontopediatria {
+                        img{
+                            width: 14rem;
+                            height: 9rem;
+                        }
+                    }
+                
+                
     }
 
-    .primera-fila{
+                
+    footer{
+        width: 100%;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-        padding: 0rem 0rem 0rem 0rem;
-                }
-                
-    .fila2-imagenes{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    gap: 1rem;
-                    padding: 0rem 0rem 0rem 0rem;
-                }
-                
-                
-                /* espec. general*/
-                
-    .sonrisa-general{
-                
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
+        .grid-container{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: 100px 70px 60px;
+        
+            grid-template-areas:
+        
+            "logo menus"
+            "iconos menus"
+            "manda manda"; 
+
+            .logo{
+                justify-content: center;
                     img{
-                        width: 17rem;
-                        height: 11rem;
-                        object-fit: cover;
-                        border-radius: .4rem
+                        width: 12rem;
                     }
-                
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                    }
-                }
-                
-                /* endodoncia*/
-                
-                .endodoncia{
-                
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    
-                    img{
-                        width: 17rem;
-                        height: 11rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                    }
-                
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                    }
-                }
-                
-                /* ortodoncia*/
-                
-                
-                .ortodoncia{
-                
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 17rem;
-                        height: 11rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                    }
-                    
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                    }
-                
-                }
-                
-                
-                
-                
-                /* implantes*/
-                
-                
-                .implantes{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 17rem;
-                        height: 11rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                    }
-                    
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                        
-                    }
-                
-                }
-                
-                
-                
-                /* cirugia*/
-                
-                
-                
-                .cirugia{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 17rem;
-                        height: 11rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                        }
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                        }
-                
-                }
-                
-                
-                
-                /* odontopediatría*/
-                
-                .odontopediatria {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 17rem;
-                        height: 11rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                        }
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                        }
-                }
-                
-                
+            }
 
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            .menus{
+                justify-content: start;
+            
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,8 +1,22 @@
 
+/*seccion 3 - Inicio */
+
+.contenedor-notas{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    }
+
+
+
+
+
 .Segmento1{
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+
     img{
 
         height: 19rem;
@@ -18,13 +32,13 @@
         font-size: 1.250rem;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
-        margin-left: 1.2rem;
+ 
         }
 
         p{
         width: 16rem;
         font-size: 0.88rem;
-        margin: 0.8rem 1rem;
+   
         }
 }
 
@@ -33,7 +47,7 @@
 .mujer-sonriendo{
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+
     
     img{
 

@@ -1,29 +1,17 @@
 @media (max-width:480px){
 
-
-
-
-
-
-    /*Home - carrusel - 480*/ 
-    
         .portada-home{
             margin-top: 3rem;
         }
-        
         
         .carousel-item img {
                 height: 20rem; 
                 width: 100%;
                 object-fit:cover; 
         }
-    
-    
-    
-    
-    
+
     /*Home - seccion 2 - 480*/
-    
+
     .circulos{
         display: flex;
         flex-direction: row;
@@ -34,12 +22,8 @@
         
     }
     
-    
-    
-    
     /*home-nosotros - 480*/
-    
-    
+
     .circulo-nos{
         display: flex;
         flex-direction: column;
@@ -66,22 +50,14 @@
             font-size: .75rem;
             text-align: center;
         }
-
     }
     
-
-
-    
-    
     /*home-especialidad - 480*/
-    
-    
+
     .circulo-espe{
         display: flex;
         flex-direction: column;
-        
         align-items: center;
-    
     }
     
     .circulo-espe img {
@@ -111,10 +87,7 @@
     .circulo-cont{
         display: flex;
         flex-direction: column;
-    
         align-items: center;
-    
-    
     }
     
     .circulo-cont img {
@@ -170,48 +143,31 @@
         font-size: .75rem;
         text-align: center;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     /*Home - seccion Articulos - 480*/ 
     
     .contenedor-notas{
         width: 100%;
-    
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content:space-around;
         align-items: center;
         background-color: #f6f6f6;
         padding: 0rem 5rem 0rem 5rem;
+
+        img{
+            height: 15rem;
+            width: 23rem;
+            object-fit: cover;
+            }
         
-        
-    }
-    
-    
     .Segmento1{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    
-    .contenedor-notas img{
-    height: 15rem;
-    width: 23rem;
-    object-fit: cover;
-    }
+        }
     
     .texto1 h2{
         width: 15rem;
@@ -219,53 +175,52 @@
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         margin-top: .7rem;
-    }
-    
-    .texto1 p{
+
+        p{
             width: 25rem;
             font-size: .75rem;
             margin-top: .7rem;
             }
-    
-    
+        }
+    }
     
     .mujer-sonriendo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        img{
+            height: 15rem;
+            width: 23rem;
+        }
+        
+    .texto2 h2{
+        width: 15rem;
+        font-size: 1rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        margin-top: .7rem;
+
+        p{
+            width: 25rem;
+            font-size: .75rem;
+            margin-top: .7rem;
+            }
+        }
     }
-    
-    .mujer-sonriendo img{
-    
-        height: 15rem;
-        width: 23rem;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
     
     /*nosotros - sección2 480*/
-    
-    /*nosotros - seccion1*/
+
     .seccion-principal-nos{
         margin-top: .1875rem;
+
+        img{
+            width: 100%;
+            height: 20rem;
+            object-fit: cover;
+        }
     }
-    
-    .seccion-principal-nos img{
-        width: 100%;
-        height: 20rem;
-        object-fit: cover;
-    }
-    
-    
-    
-    
     
     .seccion-secund{
         background-color: #edecec;
@@ -274,60 +229,37 @@
     }
     
     .art-secundaria-nos{
-        
-        display: flex;
-        flex-direction: column;
-        align-items:end;
-        margin-left: 23.5rem;
-    
-    }
-    
-    
-    .art-secundaria-nos img{
-        height: 15rem;
-        width: 23rem;
-        object-fit: cover;
-    
-    
-    }
-    
-    .texto-nota{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        margin-left: 8rem;
+
+        img{
+            height: 15rem;
+            width: 23rem;
+            object-fit: cover;
+            }
+
+            h2{
+                width: 23rem;
+                font-size: 1.25rem;
+                margin-top: 1.25rem;
+                align-content: center;
+                text-align: left;
+                }
+
+            p{
+                width: 23rem;
+                font-size: .9375rem;
+                margin-top: .1rem;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                text-align:left
+            }
     }
-    
-    
-    .texto-nota h2,p{
-        width: 23rem;
-        font-family: "Roboto", sans-serif;
-        
-    
-    
-        
-        }
-    
-    .texto-nota h2{
-        font-size: 1.25rem;
-        margin-top: 1.25rem;
-        align-self: center;
-        text-align: left;
-    
-    }
-    
-    .texto-nota p{
-    
-        font-size: .9375rem;
-        margin-top: .1rem;
-        text-align:left
-    }
-    
-    
     
     
     /* especialidades*/
-
 
     .section-espe{
         display: flex;
@@ -338,335 +270,241 @@
     }
 
     .primera-fila{
-
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 0.5rem;
-
-                }
+    }
                 
     .fila2-imagenes{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    gap: 0.5rem;
-                }
-                
-                
-                /* espec. general*/
-                
-    .sonrisa-general{
-                
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 12rem;
-                        height: 8rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                    }
-                
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                    }
-                }
-                
-                /* endodoncia*/
-                
-                .endodoncia{
-                
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    
-                    img{
-                        width: 12rem;
-                        height: 8rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                    }
-                
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                    }
-                }
-                
-                /* ortodoncia*/
-                
-                
-                .ortodoncia{
-                
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 12rem;
-                        height: 8rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                    }
-                    
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                    }
-                
-                }
-                
-                
-                
-                
-                /* implantes*/
-                
-                
-                .implantes{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 12rem;
-                        height: 8rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                    }
-                    
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                        
-                    }
-                
-                }
-                
-                
-                
-                /* cirugia*/
-                
-                
-                
-                .cirugia{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 12rem;
-                        height: 8rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                        }
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                        }
-                
-                }
-                
-                
-                
-                /* odontopediatría*/
-                
-                .odontopediatria {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                
-                    img{
-                        width: 12rem;
-                        height: 8rem;
-                        object-fit: cover;
-                        border-radius: .4rem
-                        }
-                    h4{
-                        font-family: "Roboto", sans-serif;
-                        padding: 0rem 1.875rem;
-                        font-size: 1.25rem;
-                        text-align: center;
-                        }
-                }
-                
-                
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-    /*Footer 480*/
-    
-    
-    
-    footer{
-        width: 100%;
-       
-    }
-    
-    .grid-container{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 100px 40px 80px 30px;
-        
-        grid-template-areas:
-        
-        "logo logo"
-        "iconos iconos"
-        "menus menus"
-        "manda manda" 
-    }
-    
-    
-    .logo{
-        grid-area: logo;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-right: 2rem;
-        
-        
-    }
-    .logo img{
-        width: 80%;
-    
-    
-        }
-    
-    
-    
-    .menus{
-        background-color:rgb(255, 255, 255);
-        grid-area: menus;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        margin-left: 30px;
-    
-    }
-    
-    /**/
-    .menus-footer {
-    display: flex;
-    flex-direction: column;
-    
-    }
-    
-    .menus-footer a{
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: .8125rem;
-        gap: 0.1rem;
-        margin: 0.01rem;
-        color: #155B8C;
-    
-    }
-    
-    
-    .menus-footer2 {
         display: flex;
         flex-direction: column;
-        padding-left: 4rem ;
-        margin-bottom: 1.5rem;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    /* espec. general*/
+                
+    .sonrisa-general{  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        img{
+            width: 12rem;
+            height: 8rem;
+            object-fit: cover;
+            border-radius: .4rem
         }
-        
-    .menus-footer2 a{
-            text-decoration: none;
+    
+        h4{
             font-family: "Roboto", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            font-size: .8125rem;
-            gap: 0.1rem;
-            margin: 0.01rem;
-            color: #155B8C;
+            padding: 0rem 1.875rem;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+    }
+                
+    /* endodoncia*/
+    
+    .endodoncia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         
+        img{
+            width: 12rem;
+            height: 8rem;
+            object-fit: cover;
+            border-radius: .4rem
         }
     
+        h4{
+            font-family: "Roboto", sans-serif;
+            padding: 0rem 1.875rem;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+    }
+    
+    /* ortodoncia*/
     
     
-    
-    
-    
-    
-    .iconos{
-        background-color:rgb(255, 255, 255);
-        grid-area:iconos;
+    .ortodoncia{
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: top;
-        padding-right: 3rem;
+    
+        img{
+            width: 12rem;
+            height: 8rem;
+            object-fit: cover;
+            border-radius: .4rem
+        }
+        
+        h4{
+            font-family: "Roboto", sans-serif;
+            padding: 0rem 1.875rem;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+    
+    }
+                
+    /* implantes*/
+    
+    .implantes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        img{
+            width: 12rem;
+            height: 8rem;
+            object-fit: cover;
+            border-radius: .4rem
+        }
+        
+        h4{
+            font-family: "Roboto", sans-serif;
+            padding: 0rem 1.875rem;
+            font-size: 1.25rem;
+            text-align: center;
+            
+        }
+    
+    }
+    
+    
+    /* cirugia*/
+    
+    .cirugia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        img{
+            width: 12rem;
+            height: 8rem;
+            object-fit: cover;
+            border-radius: .4rem
+            }
+        h4{
+            font-family: "Roboto", sans-serif;
+            padding: 0rem 1.875rem;
+            font-size: 1.25rem;
+            text-align: center;
+            }
+    }
+    
+    /* odontopediatría*/
+    
+    .odontopediatria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        img{
+            width: 12rem;
+            height: 8rem;
+            object-fit: cover;
+            border-radius: .4rem
+            }
+        h4{
+            font-family: "Roboto", sans-serif;
+            padding: 0rem 1.875rem;
+            font-size: 1.25rem;
+            text-align: center;
+            }
+        }
+
+                
+                
+    /*Footer 480*/
+
+
+    footer{
+        width: 100%;
+    
+        .grid-container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 100px 40px 80px 30px;
+            grid-template-areas:
+            "logo logo"
+            "iconos iconos"
+            "menus menus"
+            "manda manda";
+        }
+    
+        .logo{
+            grid-area: logo;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+            img{
+                width: 16rem;
+            }
+        }
+        
+        .menus{
+            justify-content: center;
+            margin-left: 30px;
+        }
+    
+        .menus-footer {
+            gap: 0.1rem;
+            a{
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: .8125rem;
+                margin: 0.1rem;
+                color: #155B8C;
+            }
+        }
+    
+        .menus-footer2 {
+            gap: 0.1rem;
+            a{
+                margin: 0.01rem;
+            }
+        }
+            
+        .iconos{
+    
+            padding: 1rem;
+            img{
+                gap: 0.8rem;
+            }
+        }
+    
+        .manda{
+            height: 4rem;
+            justify-content: center;
+            p{
+            padding: 0.5rem 2rem;
+                }
+            }
+        }
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
         
-    
-    
-    
-    }
-    .iconos img{
-        width: 1.6rem;
-        height: 1.6rem;
-        gap: 0.8rem;
-    }
-    
-    .manda{
-        grid-area: manda;
-        background-color:#155B8C;
-        height: 4rem;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    
-    }
-    
-    .manda p{
-        width: 100%;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: .8125rem;
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        padding-top: 0.7rem;
-    }
-    
-    
-    
-    
-    }
     

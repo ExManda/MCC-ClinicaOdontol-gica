@@ -1,28 +1,18 @@
 @media (max-width:1024px){
     /*Home - seccion 1*/
 
-    .container-fluid {
-        max-width: 1024px;
-        }
-
     .navbar-brand {
-            display: flex;
-            justify-content: center;
-            width: 40%;
-        }
-
-        
-        .navbar-toggler {
-            margin-left: auto; /* Alinea el botón hamburguesa a la derecha */
-        }
-        
-        .navbar-collapse {
-            justify-content: flex-end; /* Alinea el menú colapsado a la derecha */
-        }
-        
-        .navbar-nav {
-            text-align: center; /* Centra los elementos del menú en dispositivos pequeños */
-        }
+        width: 30%; // Ajusta el ancho del logo para este tamaño
+    }
+    
+    .navbar-collapse {
+        justify-content: center; // Centra el menú al expandirse en 1024px
+    }
+    
+    .navbar-nav {
+        flex-direction: column; // Coloca los elementos en columna si es necesario
+        text-align: left; // Ajusta el alineamiento si tienes un menú largo
+    }
 
 
 
@@ -205,25 +195,23 @@
 /*Home - seccion Articulos - 1024*/ 
 
 .contenedor-notas{
-    width: 100%;
+    width: auto;
     height: 50rem;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    align-items: center;
+    align-content: center;
     background-color: #f6f6f6;
-    padding: 0rem 5rem 0rem 5rem;
-
-    
-    
-}
+    }
 
 
 .Segmento1{
-
+    display: flex;
     flex-direction: row;
-    margin: 2rem;
-    padding: 0rem 4rem 0rem 4rem;
+    justify-content: center;
+    align-content:center;
+
+
 
     img{
         width: 16rem;
@@ -234,7 +222,7 @@
 
 .texto1 {
     h2{
-        width: 18rem;
+        width: 15rem;
         font-size: 1.5rem;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -254,7 +242,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: top;
+    align-content:center;
 
 
 
@@ -289,319 +277,17 @@
 
 /*especialidades*/
 
+.section-espe {
+    @extend .section-espe;
+    .primera-fila, .fila2-imagenes{
 
-
-.primera-fila{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    padding: 5rem 0rem 0rem 0rem;
-}
-
-.fila2-imagenes{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1.875rem 0rem 0rem 0rem;
-}
-
-
-/* espec. general*/
-
-.sonrisa-general{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 19rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-    }
-
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-    }
-}
-
-/* endodoncia*/
-
-.endodoncia{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    img{
-        width: 19rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-    }
-
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-    }
-}
-
-/* ortodoncia*/
-
-
-.ortodoncia{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 19rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-    }
-    
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-    }
-
-}
-
-
-
-
-/* implantes*/
-
-
-.implantes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 19rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-    }
-    
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-        
-    }
-
-}
-
-
-
-/* cirugia*/
-
-
-
-.cirugia{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 19rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-        }
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-        }
-
-}
-
-
-
-/* odontopediatría*/
-
-.odontopediatria {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    img{
-        width: 19rem;
-        height: 12rem;
-        object-fit: cover;
-        border-radius: .4rem
-        }
-    h4{
-        font-family: "Roboto", sans-serif;
-        padding: 0rem 1.875rem;
-        font-size: 1.25rem;
-        text-align: center;
-        }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Footer 1024*/
-
-
-
-footer{
-    width: 100%;
-
-}
-
-.grid-container{
-    display: grid;
-    grid-template-columns: 45% 55%;
-    grid-template-rows: 100px 70px 60px;
-    
-    grid-template-areas:
-    
-    "logo menus"
-    "iconos menus"
-    "manda manda" 
-}
-
-
-.logo{
-    grid-area: logo;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-
-
-
-
-    img{
-        width: 75%;
-        margin-left: 3rem;
-        }
-    }
-
-    
-.menus{
-    background-color:rgb(255, 255, 255);
-    grid-area: menus;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    margin-left: 30px;
-
-}
-
-
-.menus-footer {
-    display: flex;
-    flex-direction: column;
-
-    a{
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: .8125rem;
-        margin: .375rem;
-        color: #155B8C;
-    }
-
-}
-
-
-
-
-.menus-footer2 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 4rem ;
-    margin-bottom: 1.5rem;
-    
-        a{
-            text-decoration: none;
-            font-family: "Roboto", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            font-size: .8125rem;
-            margin: .375rem ;
-            color: #155B8C;
-    
-        }
-    }
-    
-
-
-
-.iconos{
-    background-color:rgb(255, 255, 255);
-    grid-area:iconos;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    margin-left: 4rem;
-    gap: 0.8rem;
-
-    img{
-        width: 1.875rem;
-        height: 1.875rem;
-    
-        }
-    
-    }
-
-
-.manda{
-    background-color:#155B8C;
-    grid-area: manda;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-
-    p{
-        width: 100%;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: .8125rem;
-        color: white;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        gap:1rem;
     }
-    
 
 }
-
-
 
 
 
@@ -659,6 +345,55 @@ footer{
             margin-top: .9375rem;
         }
     }
+
+
+
+
+
+
+
+
+
+
+/*Footer 1024*/
+
+
+footer{
+    width: 100%;
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 70px 60px;
+    
+        grid-template-areas:
+    
+        "logo menus"
+        "iconos menus"
+        "manda manda"; 
+        
+
+        
+        .logo img{
+                width: 16rem;
+                }
+            }
+
+            .menus{
+            justify-content: center;
+            padding-left: 1.5rem;
+            }
+            
+           
+    }
+
+
+
+
+
+
+
+
 
 
 }
