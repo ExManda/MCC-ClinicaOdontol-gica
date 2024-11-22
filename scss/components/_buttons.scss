@@ -2,17 +2,9 @@
 
 /* especialidades */
 
-.btn-volver{
-    width: 100%;
-    display: flex;
-    background-color:#F8F8F8;
-    padding-bottom: 2rem;
-    flex-direction: row;
-    justify-content: center;
-   
 
-    
-    .boton-especialidades{
+
+.btn-especialidades {
     width: 8rem;
     background-color: map-get(maps.$colors, "terciario");
     box-shadow: .0625rem .0625rem .25rem;
@@ -22,20 +14,22 @@
     border-radius: .3125rem;
     cursor: pointer;
     text-align: center;
-    
+    margin-top: 4rem;
+
 
     &:hover {
-            background-color: #1974a8;
-    }
-
+        background-color: #1974a8;
     }
 
 }
+
+
 
 /* ingresar */
 
 
 button {
+
     background-color: #23a6f0;
     color: white;
     border: none;
@@ -50,3 +44,45 @@ button:hover {
     background-color: #2180b8;
 }
 
+.btn-volver {
+    width: 8rem;
+    background-color: map-get(maps.$colors, "terciario");
+    box-shadow: .0625rem .0625rem .25rem;
+    border: none;
+    padding: .625rem 1.5rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.btn-ingresar {
+    width: 8rem;
+    background-color: map-get(maps.$colors, "terciario");
+    box-shadow: .0625rem .0625rem .25rem;
+    border: none;
+    padding: .625rem 1.5rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* contacto */
+
+
+
+.btn-contacto {
+    width: 8rem;
+    background-color: map-get(maps.$colors, "terciario");
+    box-shadow: .0625rem .0625rem .25rem;
+    border: none;
+    margin-left: 50rem;
+    padding: .625rem 1.5rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
+    cursor: pointer;
+    text-align: center;
+}

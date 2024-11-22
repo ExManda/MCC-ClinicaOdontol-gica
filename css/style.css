@@ -5,11 +5,13 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 3rem;
 }
 
 .Segmento1 {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
 }
 .Segmento1 img {
   height: 19rem;
@@ -18,8 +20,8 @@
 }
 
 .texto1 h2 {
-  width: 16rem;
-  font-size: 1.25rem;
+  width: 13rem;
+  font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
@@ -31,6 +33,7 @@
 .mujer-sonriendo {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
 }
 .mujer-sonriendo img {
   height: 19rem;
@@ -38,11 +41,11 @@
   object-fit: cover;
 }
 .mujer-sonriendo .texto2 h2 {
-  width: 16rem;
-  font-size: 1.25rem;
+  width: 10rem;
+  font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  margin: 0rem 1.5rem;
+  margin: 0rem 0.9rem;
 }
 .mujer-sonriendo .texto2 p {
   width: 16rem;
@@ -57,7 +60,8 @@
   justify-content: center;
   align-self: center;
   padding-top: 2.5rem;
-  margin-right: 30%;
+  margin-right: 5%;
+  gap: 1.5rem;
 }
 .art-secundaria-nos img {
   width: 18.75rem;
@@ -71,10 +75,10 @@
   flex-direction: column;
   align-items: center;
 }
-.texto-nota h2, .texto-nota p {
-  width: 25rem;
+.texto-nota h2,
+.texto-nota p {
+  width: 40rem;
   font-family: "Roboto", sans-serif;
-  padding: 0rem 1.875rem;
 }
 .texto-nota h2 {
   font-size: 1.25rem;
@@ -83,8 +87,9 @@
   text-align: center;
 }
 .texto-nota p {
-  font-size: 0.9375rem;
+  font-size: 0.8rem;
   margin-top: 0.9375rem;
+  text-align: justify;
 }
 
 .navbar {
@@ -111,17 +116,23 @@ button {
 }
 
 .navbar-toggler {
-  margin-left: auto; /* Asegura que el botón hamburguesa esté alineado a la derecha */
-  width: auto; /* Evita que el botón sea muy ancho */
+  margin-left: auto;
+  /* Asegura que el botón hamburguesa esté alineado a la derecha */
+  width: auto;
+  /* Evita que el botón sea muy ancho */
 }
 
 /* Estilos iniciales de los enlaces */
 .navbar-nav .nav-link {
   position: relative;
-  color: white; /* Color del texto inicial */
-  text-decoration: none; /* Remueve el subrayado predeterminado */
-  padding-bottom: 2px; /* Espacio debajo del texto */
-  transition: color 0.3s ease; /* Transición para el color del texto */
+  color: white;
+  /* Color del texto inicial */
+  text-decoration: none;
+  /* Remueve el subrayado predeterminado */
+  padding-bottom: 2px;
+  /* Espacio debajo del texto */
+  transition: color 0.3s ease;
+  /* Transición para el color del texto */
 }
 
 /* Estilos para el pseudo-elemento */
@@ -132,17 +143,21 @@ button {
   bottom: 0;
   width: 0;
   height: 1px;
-  background-color: #23A6F0; /* Color de la línea */
-  transition: width 0.3s ease; /* Transición de animación */
+  background-color: #23A6F0;
+  /* Color de la línea */
+  transition: width 0.3s ease;
+  /* Transición de animación */
 }
 
 /* Animación del pseudo-elemento en hover */
 .navbar-nav .nav-link:hover::after {
-  width: 100%; /* Expande la línea al 100% en hover */
+  width: 100%;
+  /* Expande la línea al 100% en hover */
 }
 
 .navbar-nav .nav-link:hover {
-  color: #23A6F0; /* Cambia el color del texto en hover */
+  color: #23A6F0;
+  /* Cambia el color del texto en hover */
 }
 
 footer {
@@ -243,7 +258,7 @@ footer .grid-container .manda p {
   flex-direction: row;
   justify-content: center;
   gap: 30px;
-  margin: 1rem 0rem 1rem 0rem;
+  margin: 3rem 0rem 1rem 0rem;
 }
 
 .circulo-nos {
@@ -258,7 +273,8 @@ footer .grid-container .manda p {
   transition: filter 0.3s ease;
 }
 .circulo-nos:hover {
-  filter: grayscale(100%); /* Convierte la imagen a blanco y negro en hover */
+  filter: grayscale(100%);
+  /* Convierte la imagen a blanco y negro en hover */
 }
 .circulo-nos h2 {
   font-family: "Roboto", sans-serif;
@@ -289,7 +305,8 @@ footer .grid-container .manda p {
   transition: filter 0.3s ease;
 }
 .circulo-espe:hover {
-  filter: grayscale(100%); /* Convierte la imagen a blanco y negro en hover */
+  filter: grayscale(100%);
+  /* Convierte la imagen a blanco y negro en hover */
 }
 .circulo-espe h2 {
   font-family: "Roboto", sans-serif;
@@ -320,7 +337,8 @@ footer .grid-container .manda p {
   transition: filter 0.3s ease;
 }
 .circulo-cont:hover {
-  filter: grayscale(100%); /* Convierte la imagen a blanco y negro en hover */
+  filter: grayscale(100%);
+  /* Convierte la imagen a blanco y negro en hover */
 }
 .circulo-cont h2 {
   font-family: "Roboto", sans-serif;
@@ -351,7 +369,8 @@ footer .grid-container .manda p {
   transition: filter 0.3s ease;
 }
 .circulo-ing:hover {
-  filter: grayscale(100%); /* Convierte la imagen a blanco y negro en hover */
+  filter: grayscale(100%);
+  /* Convierte la imagen a blanco y negro en hover */
 }
 .circulo-ing h2 {
   font-family: "Roboto", sans-serif;
@@ -393,7 +412,8 @@ footer .grid-container .manda p {
   align-items: center;
   padding: 2rem 0rem 2rem;
 }
-.section-espe .primera-fila, .section-espe .fila2-imagenes {
+.section-espe .primera-fila,
+.section-espe .fila2-imagenes {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -404,7 +424,8 @@ footer .grid-container .manda p {
 .section-espe .primera-fila .ortodoncia,
 .section-espe .primera-fila .implantes,
 .section-espe .primera-fila .cirugia,
-.section-espe .primera-fila .odontopediatria, .section-espe .fila2-imagenes .sonrisa-general,
+.section-espe .primera-fila .odontopediatria,
+.section-espe .fila2-imagenes .sonrisa-general,
 .section-espe .fila2-imagenes .endodoncia,
 .section-espe .fila2-imagenes .ortodoncia,
 .section-espe .fila2-imagenes .implantes,
@@ -419,7 +440,8 @@ footer .grid-container .manda p {
 .section-espe .primera-fila .ortodoncia img,
 .section-espe .primera-fila .implantes img,
 .section-espe .primera-fila .cirugia img,
-.section-espe .primera-fila .odontopediatria img, .section-espe .fila2-imagenes .sonrisa-general img,
+.section-espe .primera-fila .odontopediatria img,
+.section-espe .fila2-imagenes .sonrisa-general img,
 .section-espe .fila2-imagenes .endodoncia img,
 .section-espe .fila2-imagenes .ortodoncia img,
 .section-espe .fila2-imagenes .implantes img,
@@ -435,7 +457,8 @@ footer .grid-container .manda p {
 .section-espe .primera-fila .ortodoncia h4,
 .section-espe .primera-fila .implantes h4,
 .section-espe .primera-fila .cirugia h4,
-.section-espe .primera-fila .odontopediatria h4, .section-espe .fila2-imagenes .sonrisa-general h4,
+.section-espe .primera-fila .odontopediatria h4,
+.section-espe .fila2-imagenes .sonrisa-general h4,
 .section-espe .fila2-imagenes .endodoncia h4,
 .section-espe .fila2-imagenes .ortodoncia h4,
 .section-espe .fila2-imagenes .implantes h4,
@@ -451,32 +474,34 @@ footer .grid-container .manda p {
 .login-section {
   background-color: #F8F8F8;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-
-.login-container {
   padding: 2rem;
-  width: 500px;
+}
+.login-section .login-container {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
-h2 {
+.login-section h2 {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #333;
 }
-
-label {
+.login-section label {
   font-family: "Roboto", sans-serif;
   display: block;
   margin: 0.5rem 0 0.2rem 0;
   font-weight: bolder;
 }
-
-input {
+.login-section input {
   width: 100%;
   padding: 0.7rem;
   margin-bottom: 1rem;
@@ -490,7 +515,7 @@ input {
 }
 
 .carousel-item img {
-  height: 32rem;
+  height: 28rem;
   width: 100%;
   object-fit: cover;
 }
@@ -507,8 +532,9 @@ input {
   margin-top: 0.1875rem;
 }
 .seccion-principal-nos img {
+  height: 28rem;
   width: 100%;
-  height: auto;
+  object-fit: cover;
 }
 
 .seccion-secund {
@@ -522,20 +548,13 @@ input {
   padding-top: 0.1875rem;
 }
 .niña-dentista img {
+  height: 28rem;
   width: 100%;
-  height: auto;
+  object-fit: cover;
 }
 
 /* especialidades */
-.btn-volver {
-  width: 100%;
-  display: flex;
-  background-color: #F8F8F8;
-  padding-bottom: 2rem;
-  flex-direction: row;
-  justify-content: center;
-}
-.btn-volver .boton-especialidades {
+.btn-especialidades {
   width: 8rem;
   background-color: #407df0;
   box-shadow: 0.0625rem 0.0625rem 0.25rem;
@@ -545,8 +564,9 @@ input {
   border-radius: 0.3125rem;
   cursor: pointer;
   text-align: center;
+  margin-top: 4rem;
 }
-.btn-volver .boton-especialidades:hover {
+.btn-especialidades:hover {
   background-color: #1974a8;
 }
 
@@ -566,13 +586,52 @@ button:hover {
   background-color: #2180b8;
 }
 
+.btn-volver {
+  width: 8rem;
+  background-color: #407df0;
+  box-shadow: 0.0625rem 0.0625rem 0.25rem;
+  border: none;
+  padding: 0.625rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-ingresar {
+  width: 8rem;
+  background-color: #407df0;
+  box-shadow: 0.0625rem 0.0625rem 0.25rem;
+  border: none;
+  padding: 0.625rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* contacto */
+.btn-contacto {
+  width: 8rem;
+  background-color: #407df0;
+  box-shadow: 0.0625rem 0.0625rem 0.25rem;
+  border: none;
+  margin-left: 50rem;
+  padding: 0.625rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  text-align: center;
+}
+
 /*contacto*/
 .herramientas {
   padding-top: 0.1875rem;
 }
 .herramientas img {
+  height: 28rem;
   width: 100%;
-  height: auto;
+  object-fit: cover;
 }
 
 .section-contacto {
@@ -652,7 +711,9 @@ label {
   margin-bottom: 5px;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -665,8 +726,9 @@ input, textarea, select {
   padding-top: 0.1875rem;
 }
 .portada-ingresar img {
+  height: 28rem;
   width: 100%;
-  height: auto;
+  object-fit: cover;
 }
 
 /*media1024*/
@@ -692,15 +754,15 @@ input, textarea, select {
 
 
 
-      /*Home - seccion 2 - 1024*/
+  /*Home - seccion 2 - 1024*/
   .circulos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
-    align-items: center;
-    gap: 2rem;
-    margin: 3.75rem 0rem 3.75rem 9rem;
+    justify-content: center;
+    align-items: start;
+    gap: 4rem;
+    padding: 2rem 0rem;
   }
   /*home-nosotros - 1024*/
   .circulo-nos {
@@ -720,11 +782,11 @@ input, textarea, select {
     align-items: center;
   }
   .circulo-nos p {
-    width: 10rem;
+    width: 9rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
   }
   /*home-especialidad - 1024*/
@@ -745,11 +807,11 @@ input, textarea, select {
     align-items: center;
   }
   .circulo-espe p {
-    width: 10rem;
+    width: 9rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
   }
   /*home-contacto - 1024*/
@@ -770,11 +832,11 @@ input, textarea, select {
     align-items: center;
   }
   .circulo-cont p {
-    width: 10rem;
+    width: 9rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
   }
   /*home-ingresar - 1024*/
@@ -794,71 +856,71 @@ input, textarea, select {
     font-size: 1.0625rem;
   }
   .circulo-ing p {
-    width: 10rem;
+    width: 9rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
   }
   /*Home - seccion Articulos - 1024*/
   .contenedor-notas {
-    width: auto;
+    width: 100%;
     height: 50rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
-    background-color: #f6f6f6;
+    justify-content: center;
+    align-items: center;
   }
-  .Segmento1 {
+  .contenedor-notas .Segmento1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    align-items: start;
   }
-  .Segmento1 img {
-    width: 16rem;
+  .contenedor-notas .Segmento1 img {
+    width: 24rem;
     height: 19rem;
     object-fit: cover;
   }
-  .texto1 h2 {
-    width: 15rem;
+  .contenedor-notas .Segmento1 .texto1 h2 {
+    width: 17rem;
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin-left: 1rem;
   }
-  .texto1 p {
+  .contenedor-notas .Segmento1 .texto1 p {
     width: 18rem;
     font-size: 1rem;
     margin: 1rem;
   }
-  .mujer-sonriendo {
+  .contenedor-notas .mujer-sonriendo {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    align-items: start;
   }
-  .mujer-sonriendo img {
-    width: 16rem;
+  .contenedor-notas .mujer-sonriendo img {
+    width: 24rem;
     height: 19rem;
     object-fit: cover;
   }
-  .texto2 h2 {
-    width: 18rem;
+  .contenedor-notas .mujer-sonriendo .texto2 h2 {
+    width: 14rem;
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin-left: 1rem;
   }
-  .texto2 p {
+  .contenedor-notas .mujer-sonriendo .texto2 p {
     width: 18rem;
     font-size: 1rem;
     margin: 1rem;
   }
   /*especialidades*/
-  .section-espe .primera-fila, .section-espe .fila2-imagenes {
+  .section-espe .primera-fila,
+  .section-espe .fila2-imagenes {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -867,20 +929,22 @@ input, textarea, select {
   /*nosotros - sección2 1024*/
   .seccion-secund {
     background-color: #edecec;
-    height: 31.25rem;
     width: 100%;
+    height: auto;
   }
   .art-secundaria-nos {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: top;
-    padding-top: 2.5rem;
-    margin-left: 16rem;
+    align-items: center;
+    margin-left: 4rem;
+    /*
+    border: solid 0.1rem red;
+    */
   }
   .art-secundaria-nos img {
-    width: 18rem;
-    height: 22rem;
+    width: 20rem;
+    height: 25rem;
     object-fit: cover;
   }
   .texto-nota {
@@ -888,10 +952,10 @@ input, textarea, select {
     flex-direction: column;
     align-items: center;
   }
-  .texto-nota h2, .texto-nota p {
-    width: 25rem;
+  .texto-nota h2,
+  .texto-nota p {
+    width: 32rem;
     font-family: "Roboto", sans-serif;
-    padding: 0rem 1.5rem;
   }
   .texto-nota h2 {
     font-size: 1.25rem;
@@ -899,9 +963,44 @@ input, textarea, select {
     align-self: center;
     text-align: center;
   }
-  .texto-nota .texto-nota p {
+  .texto-nota p {
     font-size: 0.9375rem;
     margin-top: 0.9375rem;
+  }
+  /*contacto*/
+  /*ingresar*/
+  .login-section {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: auto;
+  }
+  .login-section .login-container {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .login-section .login-container h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  .login-section .login-container label {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin: 0.5rem 0 0.2rem 0;
+    font-weight: bolder;
+  }
+  .login-section .login-container input {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   /*Footer 1024*/
   footer {
@@ -920,6 +1019,10 @@ input, textarea, select {
     justify-content: center;
     padding-left: 1.5rem;
   }
+  /*buttons*/
+  .btn-contacto {
+    margin-left: 38rem;
+  }
 }
 /*media 768*/
 @media (max-width: 768px) {
@@ -930,25 +1033,28 @@ input, textarea, select {
     flex-wrap: wrap;
     gap: 1rem;
     margin: 3.75rem 0rem 3.75rem 0rem;
+    /*home-nosotros - 768*/
+    /*home-especialidad - 768*/
+    /*home-contacto - 768*/
+    /*home-ingresar - 768*/
   }
-  /*home-nosotros - 768*/
-  .circulo-nos {
+  .circulos .circulo-nos {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .circulo-nos img {
+  .circulos .circulo-nos img {
     width: 9.375rem;
     height: auto;
   }
-  .circulo-nos h2 {
+  .circulos .circulo-nos h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.0625rem;
+    font-size: 1rem;
     align-items: center;
   }
-  .circulo-nos p {
+  .circulos .circulo-nos p {
     width: 10rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -956,24 +1062,23 @@ input, textarea, select {
     font-size: 0.75rem;
     text-align: center;
   }
-  /*home-especialidad - 768*/
-  .circulo-espe {
+  .circulos .circulo-espe {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .circulo-espe img {
+  .circulos .circulo-espe img {
     width: 9.375rem;
     height: auto;
   }
-  .circulo-espe h2 {
+  .circulos .circulo-espe h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.0625rem;
     align-items: center;
   }
-  .circulo-espe p {
+  .circulos .circulo-espe p {
     width: 10rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -981,24 +1086,23 @@ input, textarea, select {
     font-size: 0.75rem;
     text-align: center;
   }
-  /*home-contacto - 768*/
-  .circulo-cont {
+  .circulos .circulo-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .circulo-cont img {
+  .circulos .circulo-cont img {
     width: 9.375rem;
     height: auto;
   }
-  .circulo-cont h2 {
+  .circulos .circulo-cont h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.0625rem;
     align-items: center;
   }
-  .circulo-cont p {
+  .circulos .circulo-cont p {
     width: 10rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -1006,29 +1110,122 @@ input, textarea, select {
     font-size: 0.75rem;
     text-align: center;
   }
-  /*home-ingresar - 768*/
-  .circulo-ing {
+  .circulos .circulo-ing {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .circulo-ing img {
+  .circulos .circulo-ing img {
     width: 9.375rem;
     height: auto;
   }
-  .circulo-ing h2 {
+  .circulos .circulo-ing h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.0625rem;
   }
-  .circulo-ing p {
+  .circulos .circulo-ing p {
     width: 10rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 0.75rem;
     text-align: center;
+  }
+  /*home-seccion3 - 768*/
+  .contenedor-notas {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem 2rem;
+  }
+  .contenedor-notas .Segmento1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+  .contenedor-notas .Segmento1 img {
+    width: 20rem;
+    height: 17rem;
+    object-fit: cover;
+  }
+  .contenedor-notas .Segmento1 .texto1 h2 {
+    width: 17rem;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-left: 1rem;
+  }
+  .contenedor-notas .Segmento1 .texto1 p {
+    width: 18rem;
+    font-size: 0.8rem;
+    margin: 1rem;
+  }
+  .contenedor-notas .mujer-sonriendo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+  .contenedor-notas .mujer-sonriendo img {
+    width: 20rem;
+    height: 17rem;
+    object-fit: cover;
+  }
+  .contenedor-notas .mujer-sonriendo .texto2 h2 {
+    width: 14rem;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-left: 1rem;
+  }
+  .contenedor-notas .mujer-sonriendo .texto2 p {
+    width: 18rem;
+    font-size: 0.8rem;
+    margin: 1rem;
+  }
+  /*nosotros - sección2 768*/
+  .seccion-secund {
+    background-color: #edecec;
+    height: auto;
+    width: 100%;
+  }
+  .art-secundaria-nos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+  .art-secundaria-nos img {
+    width: 17rem;
+    height: 21rem;
+    object-fit: cover;
+  }
+  .art-secundaria-nos .texto-nota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .art-secundaria-nos .texto-nota h2,
+  .art-secundaria-nos .texto-nota p {
+    width: 23rem;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
+  .art-secundaria-nos .texto-nota h2 {
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
+  }
+  .art-secundaria-nos .texto-nota p {
+    font-size: 0.8rem;
   }
   /*Especialidades*/
   .section-espe {
@@ -1073,6 +1270,10 @@ input, textarea, select {
     width: 14rem;
     height: 9rem;
   }
+  /*button*/
+  .btn-contacto {
+    margin-left: 25.5rem;
+  }
   footer {
     width: 100%;
   }
@@ -1084,12 +1285,27 @@ input, textarea, select {
   }
   footer .grid-container .logo {
     justify-content: center;
+    margin-left: 3rem;
   }
   footer .grid-container .logo img {
-    width: 12rem;
+    width: 13rem;
+  }
+  footer .grid-container .iconos {
+    grid-area: iconos;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    margin-left: 7rem;
+  }
+  footer .grid-container .iconos img {
+    width: 1.875rem;
+    height: 1.875rem;
   }
   footer .grid-container .menus {
     justify-content: start;
+    margin-left: 2rem;
   }
 }
 /*media 480*/
@@ -1210,21 +1426,15 @@ input, textarea, select {
     font-size: 0.75rem;
     text-align: center;
   }
-  /*Home - seccion Articulos - 480*/
+  /*Home - seccion seccion3 - 480*/
   .contenedor-notas {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #f6f6f6;
-    padding: 0rem 5rem 0rem 5rem;
-  }
-  .contenedor-notas img {
-    height: 15rem;
-    width: 23rem;
-    object-fit: cover;
   }
   .contenedor-notas .Segmento1 {
     display: flex;
@@ -1232,36 +1442,42 @@ input, textarea, select {
     justify-content: center;
     align-items: center;
   }
-  .contenedor-notas .texto1 h2 {
-    width: 15rem;
+  .contenedor-notas .Segmento1 img {
+    height: 15rem;
+    width: 23rem;
+    object-fit: cover;
+  }
+  .contenedor-notas .Segmento1 .texto1 h2 {
+    width: 18rem;
     font-size: 1rem;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin-top: 0.7rem;
   }
-  .contenedor-notas .texto1 h2 p {
+  .contenedor-notas .Segmento1 .texto1 h2 p {
     width: 25rem;
     font-size: 0.75rem;
     margin-top: 0.7rem;
   }
-  .mujer-sonriendo {
+  .contenedor-notas .mujer-sonriendo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .mujer-sonriendo img {
+  .contenedor-notas .mujer-sonriendo img {
     height: 15rem;
     width: 23rem;
   }
-  .mujer-sonriendo .texto2 h2 {
+  .contenedor-notas .mujer-sonriendo .texto2 h2 {
     width: 15rem;
     font-size: 1rem;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin-top: 0.7rem;
+    text-align: center;
   }
-  .mujer-sonriendo .texto2 h2 p {
+  .contenedor-notas .mujer-sonriendo .texto2 h2 p {
     width: 25rem;
     font-size: 0.75rem;
     margin-top: 0.7rem;
@@ -1277,14 +1493,13 @@ input, textarea, select {
   }
   .seccion-secund {
     background-color: #edecec;
-    height: 30rem;
+    height: auto;
     width: 100%;
   }
   .art-secundaria-nos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 8rem;
   }
   .art-secundaria-nos img {
     height: 15rem;
@@ -1307,6 +1522,11 @@ input, textarea, select {
     text-align: left;
   }
   /* especialidades*/
+  .niña-dentista img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
   .section-espe {
     display: flex;
     flex-direction: row;
@@ -1434,6 +1654,99 @@ input, textarea, select {
     font-size: 1.25rem;
     text-align: center;
   }
+  /* contacto 480*/
+  .herramientas img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+  .grid-form {
+    width: 80%;
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 3rem 3rem 3rem 3rem 3rem 8rem;
+    grid-template-areas: "nombre nombre" "apellido apellido" "email email" "tel tel" "espe espe" "msj msj";
+  }
+  .nombre-form {
+    grid-area: nombre;
+    display: flex;
+    gap: 1rem;
+  }
+  .apellido-form {
+    grid-area: apellido;
+    display: flex;
+    gap: 0.8rem;
+  }
+  .email-form {
+    grid-area: email;
+    display: flex;
+    gap: 2rem;
+  }
+  .tel-form {
+    grid-area: tel;
+    display: flex;
+    gap: 0.8rem;
+  }
+  .espe-form {
+    grid-area: espe;
+    display: flex;
+    gap: 0.8rem;
+  }
+  .msj-form {
+    grid-area: msj;
+    display: flex;
+    gap: 0.8rem;
+  }
+  .btn-form {
+    width: 13rem;
+    border-radius: 0.6rem;
+    margin: 0rem 5rem;
+  }
+  input {
+    all: unset;
+    border-bottom: 2px solid #04385e;
+  }
+  input:focus {
+    background-color: #ffffff;
+    color: #04385e;
+    border-bottom: #04385e;
+  }
+  form {
+    width: 20rem;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  /*ingresar*/
+  .portada-ingresar img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+  /*button*/
+  .btn-contacto {
+    width: 50%;
+    margin-left: 8rem;
+  }
+  .btn-ingresar {
+    width: 6rem;
+  }
+  .btn-especialidades {
+    width: 7rem;
+    margin-top: 0rem;
+  }
   /*Footer 480*/
   footer {
     width: 100%;
@@ -1444,49 +1757,34 @@ input, textarea, select {
     grid-template-rows: 100px 40px 80px 30px;
     grid-template-areas: "logo logo" "iconos iconos" "menus menus" "manda manda";
   }
-  footer .logo {
+  footer .grid-container .logo {
     grid-area: logo;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-  footer .logo img {
+  footer .grid-container .logo img {
     width: 16rem;
   }
-  footer .menus {
+  footer .grid-container .menus {
     justify-content: center;
-    margin-left: 30px;
+    margin: 0rem 4rem 1rem 0rem;
+    gap: 1rem;
   }
-  footer .menus-footer {
-    gap: 0.1rem;
+  footer .grid-container .iconos {
+    margin: 0rem 5rem 3rem;
   }
-  footer .menus-footer a {
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.8125rem;
-    margin: 0.1rem;
-    color: #155B8C;
-  }
-  footer .menus-footer2 {
-    gap: 0.1rem;
-  }
-  footer .menus-footer2 a {
-    margin: 0.01rem;
-  }
-  footer .iconos {
-    padding: 1rem;
-  }
-  footer .iconos img {
+  footer .grid-container .iconos img {
+    width: 1.5rem;
+    height: 1.5rem;
     gap: 0.8rem;
   }
-  footer .manda {
+  footer .grid-container .manda {
     height: 4rem;
     justify-content: center;
   }
-  footer .manda p {
+  footer .grid-container .manda p {
     padding: 0.5rem 2rem;
   }
 }

@@ -1,48 +1,48 @@
-@media (max-width:480px){
+@media (max-width:480px) {
 
-        .portada-home{
-            margin-top: 3rem;
-        }
-        
-        .carousel-item img {
-                height: 20rem; 
-                width: 100%;
-                object-fit:cover; 
-        }
+    .portada-home {
+        margin-top: 3rem;
+    }
+
+    .carousel-item img {
+        height: 20rem;
+        width: 100%;
+        object-fit: cover;
+    }
 
     /*Home - seccion 2 - 480*/
 
-    .circulos{
+    .circulos {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
         gap: 1rem;
         margin: 3.75rem 0rem 3.75rem 0rem;
-        
+
     }
-    
+
     /*home-nosotros - 480*/
 
-    .circulo-nos{
+    .circulo-nos {
         display: flex;
         flex-direction: column;
         align-items: center;
 
-            img {
+        img {
             width: 9.375rem;
             height: auto;
-        }   
+        }
 
-            h2{
+        h2 {
             font-family: "Roboto", sans-serif;
             font-weight: 700;
             font-style: normal;
             font-size: 1.0625rem;
             align-items: center;
         }
-        
-            p{
+
+        p {
             width: 10rem;
             font-family: "Roboto", sans-serif;
             font-weight: 400;
@@ -51,92 +51,30 @@
             text-align: center;
         }
     }
-    
+
     /*home-especialidad - 480*/
 
-    .circulo-espe{
+    .circulo-espe {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .circulo-espe img {
         width: 9.375rem;
         height: auto;
-    }   
-    
-    .circulo-espe h2{
+    }
+
+    .circulo-espe h2 {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-style: normal;
         font-size: 1.0625rem;
         align-items: center;
     }
-    
-    .circulo-espe p{
+
+    .circulo-espe p {
         width: 10rem;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: .75rem;
-        text-align: center;
-    }
-    
-    /*home-contacto - 480*/
-    
-    .circulo-cont{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .circulo-cont img {
-        width: 9.375rem;
-        height: auto;
-    }   
-    
-    .circulo-cont h2{
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 1.0625rem;
-        align-items: center;
-    }
-    
-    .circulo-cont p{
-        width: 10rem;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: .75rem;
-        text-align: center;
-    }
-    
-    /*home-ingresar - 480*/
-    
-    .circulo-ing{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-    }
-    
-    .circulo-ing img {
-        width: 9.375rem;
-        height: auto;
-    }   
-    
-    .circulo-ing h2{
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 1.0625rem;
-        
-    }
-    
-    .circulo-ing p{
-        width: 10rem;
-    
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -144,124 +82,213 @@
         text-align: center;
     }
 
-    /*Home - seccion Articulos - 480*/ 
-    
-    .contenedor-notas{
+    /*home-contacto - 480*/
+
+    .circulo-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circulo-cont img {
+        width: 9.375rem;
+        height: auto;
+    }
+
+    .circulo-cont h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.0625rem;
+        align-items: center;
+    }
+
+    .circulo-cont p {
+        width: 10rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .75rem;
+        text-align: center;
+    }
+
+    /*home-ingresar - 480*/
+
+    .circulo-ing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .circulo-ing img {
+        width: 9.375rem;
+        height: auto;
+    }
+
+    .circulo-ing h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.0625rem;
+
+    }
+
+    .circulo-ing p {
+        width: 10rem;
+
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .75rem;
+        text-align: center;
+    }
+
+
+
+
+    /*Home - seccion seccion3 - 480*/
+
+
+
+
+    .contenedor-notas {
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content: center;
         align-items: center;
         background-color: #f6f6f6;
-        padding: 0rem 5rem 0rem 5rem;
 
-        img{
-            height: 15rem;
-            width: 23rem;
-            object-fit: cover;
-            }
-        
-    .Segmento1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
-    
-    .texto1 h2{
-        width: 15rem;
-        font-size: 1rem;
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        margin-top: .7rem;
 
-        p{
-            width: 25rem;
-            font-size: .75rem;
-            margin-top: .7rem;
+
+
+        .Segmento1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 15rem;
+                width: 23rem;
+                object-fit: cover;
+            }
+
+
+            .texto1 h2 {
+                width: 18rem;
+                font-size: 1rem;
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                margin-top: .7rem;
+
+                p {
+                    width: 25rem;
+                    font-size: .75rem;
+                    margin-top: .7rem;
+                }
             }
         }
+
+
+        .mujer-sonriendo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 15rem;
+                width: 23rem;
+            }
+
+            .texto2 h2 {
+                width: 15rem;
+                font-size: 1rem;
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                margin-top: .7rem;
+                text-align: center;
+
+                p {
+                    width: 25rem;
+                    font-size: .75rem;
+                    margin-top: .7rem;
+                }
+            }
+        }
+
+
     }
-    
-    .mujer-sonriendo{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-        img{
-            height: 15rem;
-            width: 23rem;
-        }
-        
-    .texto2 h2{
-        width: 15rem;
-        font-size: 1rem;
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        margin-top: .7rem;
 
-        p{
-            width: 25rem;
-            font-size: .75rem;
-            margin-top: .7rem;
-            }
-        }
-    }
-    
+
+
     /*nosotros - sección2 480*/
 
-    .seccion-principal-nos{
+
+
+    .seccion-principal-nos {
         margin-top: .1875rem;
 
-        img{
+        img {
             width: 100%;
             height: 20rem;
             object-fit: cover;
         }
     }
-    
-    .seccion-secund{
+
+    .seccion-secund {
         background-color: #edecec;
-        height: 30rem;
+        height: auto;
         width: 100%;
     }
-    
-    .art-secundaria-nos{
+
+    .art-secundaria-nos {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 8rem;
 
-        img{
+
+        img {
             height: 15rem;
             width: 23rem;
             object-fit: cover;
-            }
+        }
 
-            h2{
-                width: 23rem;
-                font-size: 1.25rem;
-                margin-top: 1.25rem;
-                align-content: center;
-                text-align: left;
-                }
+        h2 {
+            width: 23rem;
+            font-size: 1.25rem;
+            margin-top: 1.25rem;
+            align-content: center;
+            text-align: left;
+        }
 
-            p{
-                width: 23rem;
-                font-size: .9375rem;
-                margin-top: .1rem;
-                font-family: "Roboto", sans-serif;
-                font-weight: 400;
-                text-align:left
-            }
+        p {
+            width: 23rem;
+            font-size: .9375rem;
+            margin-top: .1rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            text-align: left
+        }
     }
-    
-    
+
+
     /* especialidades*/
 
-    .section-espe{
+    .niña-dentista {
+
+        img {
+            width: 100%;
+            height: 20rem;
+            object-fit: cover;
+        }
+    }
+
+    .section-espe {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -269,14 +296,14 @@
         gap: 0.5rem;
     }
 
-    .primera-fila{
+    .primera-fila {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 0.5rem;
     }
-                
-    .fila2-imagenes{
+
+    .fila2-imagenes {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -284,227 +311,388 @@
     }
 
     /* espec. general*/
-                
-    .sonrisa-general{  
+
+    .sonrisa-general {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
-        img{
+
+        img {
             width: 12rem;
             height: 8rem;
             object-fit: cover;
             border-radius: .4rem
         }
-    
-        h4{
+
+        h4 {
             font-family: "Roboto", sans-serif;
             padding: 0rem 1.875rem;
             font-size: 1.25rem;
             text-align: center;
         }
     }
-                
+
     /* endodoncia*/
-    
-    .endodoncia{
+
+    .endodoncia {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
-        img{
+
+        img {
             width: 12rem;
             height: 8rem;
             object-fit: cover;
             border-radius: .4rem
         }
-    
-        h4{
+
+        h4 {
             font-family: "Roboto", sans-serif;
             padding: 0rem 1.875rem;
             font-size: 1.25rem;
             text-align: center;
         }
     }
-    
+
     /* ortodoncia*/
-    
-    
-    .ortodoncia{
+
+
+    .ortodoncia {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
-        img{
+
+        img {
             width: 12rem;
             height: 8rem;
             object-fit: cover;
             border-radius: .4rem
         }
-        
-        h4{
+
+        h4 {
             font-family: "Roboto", sans-serif;
             padding: 0rem 1.875rem;
             font-size: 1.25rem;
             text-align: center;
         }
-    
+
     }
-                
+
     /* implantes*/
-    
-    .implantes{
+
+    .implantes {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
-        img{
+
+        img {
             width: 12rem;
             height: 8rem;
             object-fit: cover;
             border-radius: .4rem
         }
-        
-        h4{
+
+        h4 {
             font-family: "Roboto", sans-serif;
             padding: 0rem 1.875rem;
             font-size: 1.25rem;
             text-align: center;
-            
+
         }
-    
+
     }
-    
-    
+
+
     /* cirugia*/
-    
-    .cirugia{
+
+    .cirugia {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
-        img{
+
+        img {
             width: 12rem;
             height: 8rem;
             object-fit: cover;
             border-radius: .4rem
-            }
-        h4{
+        }
+
+        h4 {
             font-family: "Roboto", sans-serif;
             padding: 0rem 1.875rem;
             font-size: 1.25rem;
             text-align: center;
-            }
+        }
     }
-    
+
     /* odontopediatría*/
-    
+
     .odontopediatria {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
-        img{
+
+        img {
             width: 12rem;
             height: 8rem;
             object-fit: cover;
             border-radius: .4rem
-            }
-        h4{
+        }
+
+        h4 {
             font-family: "Roboto", sans-serif;
             padding: 0rem 1.875rem;
             font-size: 1.25rem;
             text-align: center;
-            }
         }
+    }
 
-                
-                
+
+
+
+    /* contacto 480*/
+
+    .herramientas {
+
+        img {
+            width: 100%;
+            height: 20rem;
+            object-fit: cover;
+        }
+    }
+
+
+
+
+
+    .grid-form {
+
+        width: 80%;
+        padding: 2rem;
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 3rem 3rem 3rem 3rem 3rem 8rem;
+
+        grid-template-areas:
+
+            "nombre nombre"
+            "apellido apellido"
+            "email email"
+            "tel tel"
+            "espe espe"
+            "msj msj"
+
+    }
+
+    .nombre-form {
+
+        grid-area: nombre;
+        display: flex;
+        gap: 1rem;
+
+
+    }
+
+    .apellido-form {
+
+        grid-area: apellido;
+        display: flex;
+        gap: 0.8rem;
+
+
+    }
+
+    .email-form {
+
+        grid-area: email;
+        display: flex;
+        gap: 2rem;
+
+    }
+
+
+    .tel-form {
+
+        grid-area: tel;
+        display: flex;
+        gap: 0.8rem;
+
+    }
+
+    .espe-form {
+        grid-area: espe;
+        display: flex;
+        gap: 0.8rem;
+    }
+
+
+    .msj-form {
+
+        grid-area: msj;
+        display: flex;
+        gap: 0.8rem;
+
+    }
+
+    .btn-form {
+        width: 13rem;
+        border-radius: 0.6rem;
+        margin: 0rem 5rem;
+    }
+
+
+
+
+
+
+    input {
+
+        all: unset;
+        border-bottom: 2px solid #04385e;
+
+    }
+
+    input:focus {
+
+        background-color: #ffffff;
+        color: #04385e;
+        border-bottom: #04385e;
+
+    }
+
+    form {
+        width: 20rem;
+
+    }
+
+
+
+
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input,
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+
+
+    /*ingresar*/
+
+    .portada-ingresar {
+
+        img {
+            width: 100%;
+            height: 20rem;
+            object-fit: cover;
+        }
+    }
+
+
+
+
+
+    /*button*/
+
+    .btn-contacto {
+        width: 50%;
+        margin-left: 8rem;
+
+    }
+
+
+    .btn-ingresar {
+        width: 6rem;
+    }
+
+
+
+    .btn-especialidades {
+        width: 7rem;
+        margin-top: 0rem;
+    }
+
+
+
+
+
+
+
+
+
     /*Footer 480*/
 
 
-    footer{
+    footer {
         width: 100%;
-    
-        .grid-container{
+
+        .grid-container {
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-rows: 100px 40px 80px 30px;
             grid-template-areas:
-            "logo logo"
-            "iconos iconos"
-            "menus menus"
-            "manda manda";
-        }
-    
-        .logo{
-            grid-area: logo;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-    
-            img{
-                width: 16rem;
+                "logo logo"
+                "iconos iconos"
+                "menus menus"
+                "manda manda";
+
+
+            .logo {
+                grid-area: logo;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 16rem;
+                }
             }
-        }
-        
-        .menus{
-            justify-content: center;
-            margin-left: 30px;
-        }
-    
-        .menus-footer {
-            gap: 0.1rem;
-            a{
-                text-decoration: none;
-                font-family: "Roboto", sans-serif;
-                font-weight: 400;
-                font-style: normal;
-                font-size: .8125rem;
-                margin: 0.1rem;
-                color: #155B8C;
+
+            .menus {
+                justify-content: center;
+                margin: 0rem 4rem 1rem 0rem;
+                gap: 1rem;
+
+
+
+
+
+
+
             }
-        }
-    
-        .menus-footer2 {
-            gap: 0.1rem;
-            a{
-                margin: 0.01rem;
+
+            .iconos {
+                margin: 0rem 5rem 3rem;
+
+                img {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    gap: 0.8rem;
+                }
             }
-        }
-            
-        .iconos{
-    
-            padding: 1rem;
-            img{
-                gap: 0.8rem;
-            }
-        }
-    
-        .manda{
-            height: 4rem;
-            justify-content: center;
-            p{
-            padding: 0.5rem 2rem;
+
+            .manda {
+                height: 4rem;
+                justify-content: center;
+
+                p {
+                    padding: 0.5rem 2rem;
                 }
             }
         }
-    }
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-    
+
+    }
+}

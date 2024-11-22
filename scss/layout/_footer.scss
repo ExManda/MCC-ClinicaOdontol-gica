@@ -2,118 +2,114 @@
 
 
 
-footer{
+footer {
     width: 100%;
 
-    .grid-container{
+    .grid-container {
         display: grid;
         grid-template-columns: 30% 70%;
         grid-template-rows: 100px 70px 60px;
-    
+
         grid-template-areas:
-    
-        "logo menus"
-        "iconos menus"
-        "manda manda"; 
-        
-        .logo{
+
+            "logo menus"
+            "iconos menus"
+            "manda manda";
+
+        .logo {
             grid-area: logo;
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-        
-            img{
-                width: 20rem;
-                }
-            }
 
-            .menus{
-                grid-area: menus;
-                background-color:rgb(255, 255, 255);
-                display: flex;
-                flex-direction: row;
-                justify-content: start;
-                align-items: center;
-                padding-left: 3.125rem;   
-            
-                .menus-footer {
-                    display: flex;
-                    flex-direction: column;
-                    padding-left: 1.5rem;
-                
-                    a{
-                        text-decoration: none;
-                        font-family: "Roboto", sans-serif;
-                        font-weight: 400;
-                        font-style: normal;
-                        font-size: .8125rem;
-                        margin: .375rem;
-                        color: map-get(maps.$colors, "primario");
-    
-                        &:hover {
-                        color: #47aaf1;
-                        }
-                    }
-                }
-    
-                .menus-footer2 {
-                    display: flex;
-                    flex-direction: column;
-                    padding-left: 1.5rem ;
-                    margin-bottom: 1.875rem;
-    
-                    a{
-                        text-decoration: none;
-                        font-family: "Roboto", sans-serif;
-                        font-weight: 400;
-                        font-style: normal;
-                        font-size: .8125rem;
-                        margin: .375rem ;
-                        color: #155B8C;
-    
-                        &:hover {
-                            color: #47aaf1;
-                        }
-                    }
-                }
+            img {
+                width: 20rem;
             }
-                
-            .iconos{
-                grid-area: iconos;
-                background-color:rgb(255, 255, 255);       
+        }
+
+        .menus {
+            grid-area: menus;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            padding-left: 3.125rem;
+
+            .menus-footer {
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: .9375rem;
-                margin-right: 3rem;
-    
-                img{
-                    width: 1.875rem;
-                    height: 1.875rem;
-                }
-            }
-            
-            .manda{
-                grid-area: manda;
-                background-color:#155B8C;
-                display: flex;
-                align-items: center;
-    
-                p{
-                    width: 100%;
+                flex-direction: column;
+                padding-left: 1.5rem;
+
+                a {
+                    text-decoration: none;
                     font-family: "Roboto", sans-serif;
-                    font-weight: 300;
+                    font-weight: 400;
                     font-style: normal;
                     font-size: .8125rem;
-                    color: white;
-                    text-align: center;
-                    margin:0;
+                    margin: .375rem;
+                    color: map-get(maps.$colors, "primario");
+
+                    &:hover {
+                        color: #47aaf1;
+                    }
                 }
-            }   
+            }
+
+            .menus-footer2 {
+                display: flex;
+                flex-direction: column;
+                padding-left: 1.5rem;
+                margin-bottom: 1.875rem;
+
+                a {
+                    text-decoration: none;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: .8125rem;
+                    margin: .375rem;
+                    color: #155B8C;
+
+                    &:hover {
+                        color: #47aaf1;
+                    }
+                }
+            }
+        }
+
+        .iconos {
+            grid-area: iconos;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: .9375rem;
+            margin-right: 3rem;
+
+            img {
+                width: 1.875rem;
+                height: 1.875rem;
+            }
+        }
+
+        .manda {
+            grid-area: manda;
+            background-color: #155B8C;
+            display: flex;
+            align-items: center;
+
+            p {
+                width: 100%;
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                font-size: .8125rem;
+                color: white;
+                text-align: center;
+                margin: 0;
+            }
+        }
     }
 }
-
-
-
-
